@@ -1,0 +1,30 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdu\c {c}\~ao}{18}{chapter.1}
+\contentsline {section}{\numberline {1.1}Cenário brasileiro de geração fotovoltaica}{18}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Dados atuais de geração}{18}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Comparação com outros países}{21}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Grande potencial ainda não totalmente aproveitado no Nordeste}{24}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Empecilhos para aproveitar o potencial}{26}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Conexão com o trabalho apresentado e sua relevância}{29}{subsection.1.1.5}
+\contentsline {section}{\numberline {1.2}Objetivo do trabalho}{31}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estrutura do texto}{31}{section.1.3}
+\contentsline {chapter}{\numberline {2}Referencial Te\'orico}{32}{chapter.2}
+\contentsline {section}{\numberline {2.1}Previsão de Geração de Energia Fotovoltaica}{32}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Especificidades para sistemas fotovoltaicos}{32}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Diferentes métodos de previsão}{34}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Horizontes temporais de previsão}{37}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Modelos de referência (\textit {baselines})}{40}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Abordagem utilizada}{42}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Aprendizado de Máquina para Séries Temporais}{42}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fundamentos do aprendizado de máquina}{42}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}\textit {Cross-validation} para séries temporais}{45}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {3}Materiais e M\'etodos}{49}{chapter.3}
+\contentsline {section}{\numberline {3.1}Dados Meteorológicos e Variáveis de Entrada}{49}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}O conjunto de dados das usinas}{49}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Variáveis calculadas}{49}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Pré-processamento dos dados}{49}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Engenharia de \textit {features}}{49}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Conjunto final de variáveis}{49}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Modelos Adotados}{49}{section.3.2}
+\contentsline {section}{\numberline {3.3}Métricas de Avaliação e \textit {Benchmarks}}{49}{section.3.3}
+\contentsline {chapter}{Refer\^encias}{50}{chapter.4}

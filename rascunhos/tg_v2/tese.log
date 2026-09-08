@@ -1,0 +1,3786 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.1)  5 JUN 2026 01:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./tese.tex
+(tese.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(ita.cls
+Document Class: ita 2006/03/10 v2.0 Classe de documento com padrões do ITA
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+(ita/defaults.def) (ita/tg.def)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count286
+\calc@Cskip=\skip53
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count287
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen151
+\l@unhyphenated=\language79
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
+)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count288
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\ba
+bel-english.tex)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/inval
+id\babel-portuges.tex)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/inval
+id\babel-brazil.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4320.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\englis
+h.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+
+Package babel Warning: Name 'portuges' is deprecated.
+(babel)                Use 'portuguese' instead.
+(babel)                Reported on input line 4320.
+
+Package babel Info: Importing font and identification data for portuges
+(babel)             from babel-pt.ini. Reported on input line 4320.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portu
+guese.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 132.
+)
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 4320.
+
+Package babel Info: Importing font and identification data for brazil
+(babel)             from babel-pt-BR.ini. Reported on input line 4320.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazi
+lian.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 100.
+)) (ita/itabr.babel)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\utf8.def
+File: utf8.def 2022/06/07 v1.3c UTF-8 support
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.dfu
+File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.dfu
+File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.dfu
+File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01C4 (decimal 452)
+   defining Unicode char U+01C5 (decimal 453)
+   defining Unicode char U+01C6 (decimal 454)
+   defining Unicode char U+01C7 (decimal 455)
+   defining Unicode char U+01C8 (decimal 456)
+   defining Unicode char U+01C9 (decimal 457)
+   defining Unicode char U+01CA (decimal 458)
+   defining Unicode char U+01CB (decimal 459)
+   defining Unicode char U+01CC (decimal 460)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+02DB (decimal 731)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+1E0D (decimal 7693)
+   defining Unicode char U+1E1E (decimal 7710)
+   defining Unicode char U+1E1F (decimal 7711)
+   defining Unicode char U+1E25 (decimal 7717)
+   defining Unicode char U+1E30 (decimal 7728)
+   defining Unicode char U+1E31 (decimal 7729)
+   defining Unicode char U+1E37 (decimal 7735)
+   defining Unicode char U+1E8E (decimal 7822)
+   defining Unicode char U+1E8F (decimal 7823)
+   defining Unicode char U+1E43 (decimal 7747)
+   defining Unicode char U+1E45 (decimal 7749)
+   defining Unicode char U+1E47 (decimal 7751)
+   defining Unicode char U+1E5B (decimal 7771)
+   defining Unicode char U+1E63 (decimal 7779)
+   defining Unicode char U+1E6D (decimal 7789)
+   defining Unicode char U+1E90 (decimal 7824)
+   defining Unicode char U+1E91 (decimal 7825)
+   defining Unicode char U+1E9E (decimal 7838)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.dfu
+File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
+y
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
+y
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip54
+\f@nch@offset@elh=\skip55
+\f@nch@offset@erh=\skip56
+\f@nch@offset@olh=\skip57
+\f@nch@offset@orh=\skip58
+\f@nch@offset@elf=\skip59
+\f@nch@offset@erf=\skip60
+\f@nch@offset@olf=\skip61
+\f@nch@offset@orf=\skip62
+\f@nch@height=\skip63
+\f@nch@footalignment=\skip64
+\f@nch@widthL=\skip65
+\f@nch@widthC=\skip66
+\f@nch@widthR=\skip67
+\@temptokenb=\toks19
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
+y
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.st
+y
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.
+sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemod
+ern.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count289
+) 
+))
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.st
+y
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count292
+\LTcapwidth=\dimen160
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count293
+\LT@rows=\count294
+\c@LT@tables=\count295
+\c@LT@chunks=\count296
+\LT@p@ftn=\toks22
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box58
+\extrarowheight=\dimen162
+\NC@list=\toks23
+\extratabsurround=\skip72
+\backup@length=\skip73
+\ar@cellbox=\box59
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count297
+\TX@ftn=\toks24
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
+tx))
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.st
+y
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.
+sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
+inekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
+e.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
+r.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
+y
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
+titlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
+sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count298
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
+y
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringen
+c.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
+y
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count302
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `debug' set `true' on input line 4066.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4066.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4066
+.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4066.
+Package hyperref Info: Option `verbose' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing ON on input line 4213.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2025-06-21 v1.45 Bibliographical back referencing
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
+filecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
+uecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
+alc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+))
+\c@Hy@tempcnt=\count303
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen169
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count304
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing ON on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count305
+\c@Item=\count306
+\c@Hfootnote=\count307
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count308
+\c@bookmark@seq@number=\count309
+\Hy@SectionHShift=\skip74
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/ae\ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+))
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count310
+\Gm@cntv=\count311
+\c@Gm@tempcnt=\count312
+\Gm@bindingoffset=\dimen174
+\Gm@wd@mp=\dimen175
+\Gm@odd@mp=\dimen176
+\Gm@even@mp=\dimen177
+\Gm@layoutwidth=\dimen178
+\Gm@layoutheight=\dimen179
+\Gm@layouthoffset=\dimen180
+\Gm@layoutvoffset=\dimen181
+\Gm@dimlist=\toks25
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g)) (abntcite.sty (abnt/cvs-id.def)
+Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
+ (abntex-abrev.sty (abnt/cvs-id.def)
+Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
+
+(abnt/nbr10522-1988.def (abnt/cvs-id.def)
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
+) (abnt/abntex-abrev-pt_BR.def
+(abnt/cvs-id.def)
+File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
+)) (abnt/nbr10520-2002.def (abnt/cvs-id.def)
+File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
+)
+)
+\minimumbiblabelwidth=\skip75
+\ABCIauxlen=\skip76
+\c@ABCIaux=\count313
+\c@ABCImax=\count314
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip77
+LaTeX Info: Redefining \newblock on input line 562.
+LaTeX Info: Redefining \cite on input line 589.
+\ABCItoken=\toks26
+)
+\c@mecounter=\count315
+\c@kwcipcounter=\count316
+\nohyphen=\language81
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip78
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen182
+)) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen183
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count317
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count318
+\leftroot@=\count319
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count320
+\DOTSCASE@=\count321
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen184
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count322
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count323
+\dotsspace@=\muskip18
+\c@parentequation=\count324
+\dspbrk@lvl=\count325
+\tag@help=\toks28
+\row@=\count326
+\column@=\count327
+\maxfields@=\count328
+\andhelp@=\toks29
+\eqnshift@=\dimen185
+\alignsep@=\dimen186
+\tagshift@=\dimen187
+\tagwidth@=\dimen188
+\totwidth@=\dimen189
+\lineht@=\dimen190
+\@envbody=\toks30
+\multlinegap=\skip79
+\multlinetaggap=\skip80
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip81
+\multirow@cntb=\count329
+\multirow@dima=\skip82
+\bigstrutjot=\dimen191
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count330
+\float@exts=\toks32
+\float@box=\box62
+\@float@everytoks=\toks33
+\@floatcapt=\box63
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+y
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen192
+\lightrulewidth=\dimen193
+\cmidrulewidth=\dimen194
+\belowrulesep=\dimen195
+\belowbottomsep=\dimen196
+\aboverulesep=\dimen197
+\abovetopsep=\dimen198
+\cmidrulesep=\dimen199
+\cmidrulekern=\dimen256
+\defaultaddspace=\dimen257
+\@cmidla=\count331
+\@cmidlb=\count332
+\@aboverulesep=\dimen258
+\@belowrulesep=\dimen259
+\@thisruleclass=\count333
+\@lastruleclass=\count334
+\@thisrulewidth=\dimen260
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count335
+\l__siunitx_number_exponent_fixed_int=\count336
+\l__siunitx_number_min_decimal_int=\count337
+\l__siunitx_number_min_integer_int=\count338
+\l__siunitx_number_round_precision_int=\count339
+\l__siunitx_number_lower_threshold_int=\count340
+\l__siunitx_number_upper_threshold_int=\count341
+\l__siunitx_number_group_first_int=\count342
+\l__siunitx_number_group_size_int=\count343
+\l__siunitx_number_group_min_int=\count344
+\l__siunitx_number_group_minimum_int=\count345
+\l__siunitx_compound_count_int=\count346
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/translations\transla
+tions.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box64
+\l__siunitx_table_tmp_dim=\dimen261
+\l__siunitx_table_column_width_dim=\dimen262
+\l__siunitx_table_integer_box=\box65
+\l__siunitx_table_decimal_box=\box66
+\l__siunitx_table_uncert_box=\box67
+\l__siunitx_table_before_box=\box68
+\l__siunitx_table_after_box=\box69
+\l__siunitx_table_before_dim=\dimen263
+\l__siunitx_table_carry_dim=\dimen264
+\l__siunitx_unit_tmp_int=\count347
+\l__siunitx_unit_position_int=\count348
+\l__siunitx_unit_total_int=\count349
+\l__siunitx_sexagesimal_tmp_dim=\dimen265
+\l__siunitx_sexagesimal_marker_box=\box70
+\l__siunitx_sexagesimal_unit_box=\box71
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box72
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.st
+y
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.st
+y
+Package: placeins 2005/04/18  v 2.2
+)
+\@glossaryfile=\write3
+\openout3 = `tese.glo'.
+
+
+Writing glossary file tese.glo 
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 91
+.
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count350
+) (tese.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 13.
+)
+\openout1 = `tese.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.st
+y
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count351
+\scratchdimen=\dimen266
+\scratchbox=\box73
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen267
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks35
+)
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 91.
+ (tese.out) (tese.out)
+\@outlinefile=\write4
+\openout4 = `tese.out'.
+
+Package hyperref Info: Anchor `Doc-Start' on input line 91.
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-17.07156pt
+* \headheight=15.93347pt
+* \headsep=14.22636pt
+* \topskip=12.0pt
+* \footskip=35.2414pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@butlastpage=\count357
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\t
+ranslations-basic-dictionary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `brazil'. on input line 91.
+Package translations Info: no dictionary file `translations-basic-dictionary-po
+rtuges.trsl' found. on input line 91.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\t
+ranslations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 91.
+ (PreTextuais/main.tex
+Package hyperref Info: Anchor `cover.0' on input line 2.
+<ita/ita_logo.jpg, id=185, 2551.5325pt x 978.65625pt>
+File: ita/ita_logo.jpg Graphic file (type jpg)
+<use ita/ita_logo.jpg>
+Package pdftex.def Info: ita/ita_logo.jpg  used on input line 2.
+(pdftex.def)             Requested size: 227.62206pt x 87.29874pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (5.57451pt too wide) in paragraph at lines 2--2
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+
+ []
+
+Package hyperref Info: Anchor `titulo.0' on input line 2.
+Package hyperref Info: Anchor `page.i' on input line 2.
+[1
+
+
+
+{C:/Users/Usuário/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ita/ita
+_logo.jpg>]
+Package hyperref Info: Anchor `page.ii' on input line 2.
+ [2]
+Package hyperref Info: Anchor `cip.0' on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \maketitle
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package hyperref Info: Anchor `page.iii' on input line 2.
+[3]
+Package hyperref Info: Anchor `aprovacao.0' on input line 2.
+Package hyperref Info: Anchor `page.iv' on input line 2.
+ [4]
+Package hyperref Info: Anchor `dedication.0' on input line 5.
+Package hyperref Info: Anchor `page.iv' on input line 7.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \end{itadedication}
+                        [4]
+Package hyperref Info: Anchor `chapter*.1' on input line 11.
+Package hyperref Info: Anchor `acknowledgment.0' on input line 11.
+ (PreTextuais/agradecimentos.tex)
+Package hyperref Info: Anchor `page.v' on input line 12.
+ [5
+
+]
+Package hyperref Info: Anchor `epigrafe.0' on input line 16.
+
+(PreTextuais/epigrafe.tex)
+Package hyperref Info: Anchor `page.vi' on input line 25.
+ [6]
+Package hyperref Info: Anchor `chapter*.2' on input line 25.
+Package hyperref Info: Anchor `resumo.0' on input line 25.
+ (PreTextuais/resumo.tex
+Overfull \hbox (18.6848pt too wide) in paragraph at lines 26--4
+\T1/aer/m/n/12 Escreva aqui o re-sumo em por-tu-gu�s (m�-ximo 500 pa-la-vras, c
+on-forme ABNT NBR 6028:2021).
+ []
+
+)
+Package hyperref Info: Anchor `page.vii' on input line 31.
+ [7
+
+]
+Package hyperref Info: Anchor `chapter*.3' on input line 31.
+Package hyperref Info: Anchor `abstract.0' on input line 31.
+ (PreTextuais/abstract.tex)
+Package hyperref Info: Anchor `page.viii' on input line 37.
+ [8
+
+]
+Package hyperref Info: Anchor `chapter*.4' on input line 37.
+Package hyperref Info: Anchor `listafiguras.0' on input line 37.
+ (tese.lof
+Package hyperref Info: Reference (link) `figure.caption.12' on input line 3.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 4.
+Package hyperref Info: Reference (link) `figure.caption.14' on input line 5.
+Package hyperref Info: Reference (link) `figure.caption.15' on input line 6.
+Package hyperref Info: Reference (link) `figure.caption.24' on input line 8.
+Package hyperref Info: Reference (link) `figure.caption.25' on input line 9.
+Package hyperref Info: Reference (link) `figure.caption.26' on input line 10.
+)
+\tf@lof=\write5
+\openout5 = `tese.lof'.
+
+Package hyperref Info: Anchor `page.ix' on input line 40.
+ [9
+
+Package `hyperref' Info: End of reference (link) `figure.caption.12', line 3.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 4.
+Package `hyperref' Info: End of reference (link) `figure.caption.14', line 5.
+Package `hyperref' Info: End of reference (link) `figure.caption.15', line 6.
+Package `hyperref' Info: End of reference (link) `figure.caption.24', line 8.
+Package `hyperref' Info: End of reference (link) `figure.caption.25', line 9.
+Package `hyperref' Info: End of reference (link) `figure.caption.26', line 10.
+]
+Package hyperref Info: Anchor `chapter*.5' on input line 40.
+Package hyperref Info: Anchor `listatabelas.0' on input line 40.
+ (tese.lot
+Package hyperref Info: Reference (link) `table.caption.11' on input line 3.
+Package hyperref Info: Reference (link) `table.caption.16' on input line 4.
+Package hyperref Info: Reference (link) `table.caption.17' on input line 5.
+Package hyperref Info: Reference (link) `table.caption.23' on input line 7.
+)
+\tf@lot=\write6
+\openout6 = `tese.lot'.
+
+Package hyperref Info: Anchor `page.x' on input line 43.
+ [10
+
+Package `hyperref' Info: End of reference (link) `table.caption.11', line 3.
+Package `hyperref' Info: End of reference (link) `table.caption.16', line 4.
+Package `hyperref' Info: End of reference (link) `table.caption.17', line 5.
+Package `hyperref' Info: End of reference (link) `table.caption.23', line 7.
+]
+Package hyperref Info: Anchor `chapter*.6' on input line 43.
+Package hyperref Info: Anchor `listaabreviaturas.0' on input line 43.
+ (tese.lof)
+\tf@lof=\write7
+\openout7 = `tese.lof'.
+
+
+(PreTextuais/listaabreviaturas.tex
+Package hyperref Info: Anchor `page.xi' on input line 1.
+ [11
+
+]
+Package hyperref Info: Anchor `chapter*.7' on input line 1.
+Package hyperref Info: Anchor `listaabreviaturas.0' on input line 1.
+
+pdfTeX warning (ext4): destination with the same identifier (name{listaabreviat
+uras.0}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{listofabbreviations}
+                                (tese.lof)
+\tf@lof=\write8
+\openout8 = `tese.lof'.
+
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \item[ABNT]
+                   Associação Brasileira de Normas Técnicas
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 2
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \item[ANN]
+                   Artificial Neural Network (Rede Neural Artificial)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 3
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \item[ARIMA]
+                   Autoregressive Integrated Moving Average
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 4
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \item[EPE]
+                   Empresa de Pesquisa Energética
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 5
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \item[FV]
+                   Fotovoltaico
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 6
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \item[GHI]
+                   Global Horizontal Irradiance (Irradiância Horizontal Glo...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 7
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item[ITA]
+                   Instituto Tecnológico de Aeronáutica
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 8
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \item[LSTM]
+                   Long Short-Term Memory
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 9
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \item[MAE]
+                    Mean Absolute Error (Erro Absoluto Médio)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 10
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \item[MAPE]
+                    Mean Absolute Percentage Error
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 11
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \item[ML]
+                    Machine Learning (Aprendizado de Máquina)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 12
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \item[MMGD]
+                    Micro e Minigeração Distribuída
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 13
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \item[NWP]
+                    Numerical Weather Prediction (Previsão Numérica do Tempo)
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 14
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \item[OIE]
+                    Oferta Interna de Energia
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 15
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \item[ONS]
+                    Operador Nacional do Sistema Elétrico
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 16
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \item[RMSE]
+                    Root Mean Square Error (Raiz do Erro Quadrático Médio)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 17
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \item[SFV]
+                    Sistema Fotovoltaico
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 18
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \item[STC]
+                    Standard Test Conditions (Condições Padrão de Ensaio)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 19
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \item[SVM]
+                    Support Vector Machine
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 20
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \item[UFV]
+                    Usina Fotovoltaica
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][]
+ []
+
+Package hyperref Info: Anchor `page.xii' on input line 22.
+[12
+
+]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \item[XGBoost]
+                    Extreme Gradient Boosting
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][]
+ []
+
+)
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 47.
+Package hyperref Info: Anchor `page.xiii' on input line 47.
+ [13]
+Package hyperref Info: Anchor `chapter*.8' on input line 47.
+Package hyperref Info: Anchor `listasimbolos.0' on input line 47.
+ (tese.los)
+\tf@los=\write9
+\openout9 = `tese.los'.
+
+ (PreTextuais/listasimbolos.tex
+Package hyperref Info: Anchor `page.xiv' on input line 1.
+ [14
+
+]
+Package hyperref Info: Anchor `chapter*.9' on input line 1.
+Package hyperref Info: Anchor `listasimbolos.0' on input line 1.
+
+pdfTeX warning (ext4): destination with the same identifier (name{listasimbolos
+.0}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{listofsymbols}
+                          (tese.los)
+\tf@los=\write10
+\openout10 = `tese.los'.
+
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \item[$G$]
+                        Irradiância solar [\si{\watt\per\square\meter}]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 2
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \item[$G_h$]
+                        Irradiância horizontal global (GHI) [\si{\kWh\per\s...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 3
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \item[$G_t$]
+                        Irradiância no plano dos módulos [\si{\watt\per\sq...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 4
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \item[$G_0$]
+                        Irradiância extraterrestre no plano horizontal [\si...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 5
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \item[$k_t$]
+                        Índice de claridade ($G_h / G_0$)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 6
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \item[$k_d$]
+                        Fração difusa ($G_d / G_h$)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 7
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item[$P_{ac}$]
+                        Potência CA gerada [\si{\watt}]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 8
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \item[$P_{dc}$]
+                        Potência CC gerada [\si{\watt}]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 9
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \item[$P_{\mathrm{nom}}$]
+                               Potência nominal da usina [\si{\watt\peak}]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 10
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \item[$T_{amb}$]
+                         Temperatura ambiente [\si{\celsius}]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 11
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \item[$T_{mod}$]
+                         Temperatura do módulo fotovoltaico [\si{\celsius}]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 12
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \item[$\eta$]
+                         Eficiência do sistema fotovoltaico
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 13
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \item[$\gamma$]
+                         Coeficiente de temperatura de potência [\si{\per\c...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 14
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \item[$\hat{y}$]
+                         Valor previsto pelo modelo
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 15
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \item[$y$]
+                         Valor real observado
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 16
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \item[$h$]
+                         Horizonte de previsão
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 17
+[][]
+ []
+
+)
+Package hyperref Info: Anchor `page.xv' on input line 51.
+ [15
+
+]
+Package hyperref Info: Anchor `chapter*.10' on input line 51.
+Package hyperref Info: Anchor `contents.0' on input line 51.
+ (tese.toc
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ []  
+ []
+
+Package hyperref Info: Reference (link) `chapter.1' on input line 2.
+Package hyperref Info: Reference (link) `section.1.1' on input line 3.
+Package hyperref Info: Reference (link) `subsection.1.1.1' on input line 4.
+Package hyperref Info: Reference (link) `subsection.1.1.2' on input line 5.
+Package hyperref Info: Reference (link) `subsection.1.1.3' on input line 6.
+Package hyperref Info: Reference (link) `subsection.1.1.4' on input line 7.
+Package hyperref Info: Reference (link) `subsection.1.1.5' on input line 8.
+Package hyperref Info: Reference (link) `section.1.2' on input line 9.
+Package hyperref Info: Reference (link) `section.1.3' on input line 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []  
+ []
+
+Package hyperref Info: Reference (link) `chapter.2' on input line 11.
+Package hyperref Info: Reference (link) `section.2.1' on input line 12.
+Package hyperref Info: Reference (link) `subsection.2.1.1' on input line 13.
+Package hyperref Info: Reference (link) `subsection.2.1.2' on input line 14.
+Package hyperref Info: Reference (link) `subsection.2.1.3' on input line 15.
+Package hyperref Info: Reference (link) `subsection.2.1.4' on input line 16.
+Package hyperref Info: Reference (link) `subsection.2.1.5' on input line 17.
+Package hyperref Info: Reference (link) `section.2.2' on input line 18.
+Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 19.
+Package hyperref Info: Reference (link) `subsection.2.2.2' on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+ []  
+ []
+
+Package hyperref Info: Reference (link) `chapter.3' on input line 21.
+Package hyperref Info: Reference (link) `section.3.1' on input line 22.
+Package hyperref Info: Reference (link) `subsection.3.1.1' on input line 23.
+Package hyperref Info: Reference (link) `subsection.3.1.2' on input line 24.
+Package hyperref Info: Anchor `page.xvi' on input line 25.
+[16
+
+Package `hyperref' Info: End of reference (link) `chapter.1', line 2.
+Package `hyperref' Info: End of reference (link) `section.1.1', line 3.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.1', line 4.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.2', line 5.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.3', line 6.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.4', line 7.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.5', line 8.
+Package `hyperref' Info: End of reference (link) `section.1.2', line 9.
+Package `hyperref' Info: End of reference (link) `section.1.3', line 10.
+Package `hyperref' Info: End of reference (link) `chapter.2', line 11.
+Package `hyperref' Info: End of reference (link) `section.2.1', line 12.
+Package `hyperref' Info: End of reference (link) `subsection.2.1.1', line 13.
+Package `hyperref' Info: End of reference (link) `subsection.2.1.2', line 14.
+Package `hyperref' Info: End of reference (link) `subsection.2.1.3', line 15.
+Package `hyperref' Info: End of reference (link) `subsection.2.1.4', line 16.
+Package `hyperref' Info: End of reference (link) `subsection.2.1.5', line 17.
+Package `hyperref' Info: End of reference (link) `section.2.2', line 18.
+Package `hyperref' Info: End of reference (link) `subsection.2.2.1', line 19.
+Package `hyperref' Info: End of reference (link) `subsection.2.2.2', line 20.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 21.
+Package `hyperref' Info: End of reference (link) `section.3.1', line 22.
+Package `hyperref' Info: End of reference (link) `subsection.3.1.1', line 23.
+]
+Package hyperref Info: Reference (link) `subsection.3.1.3' on input line 25.
+Package hyperref Info: Reference (link) `subsection.3.1.4' on input line 26.
+Package hyperref Info: Reference (link) `subsection.3.1.5' on input line 27.
+Package hyperref Info: Reference (link) `section.3.2' on input line 28.
+Package hyperref Info: Reference (link) `section.3.3' on input line 29.
+LaTeX Font Info:    Font shape `T1/aer/b/it' in size <12> not available
+(Font)              Font shape `T1/aer/bx/it' tried instead on input line 29.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+ []  
+ []
+
+Package hyperref Info: Reference (link) `chapter.4' on input line 30.
+)
+\tf@toc=\write11
+\openout11 = `tese.toc'.
+
+)
+Package hyperref Info: Anchor `page.xvii' on input line 96.
+ [17
+Package `hyperref' Info: End of reference (link) `subsection.3.1.2', line 24.
+Package `hyperref' Info: End of reference (link) `subsection.3.1.3', line 25.
+Package `hyperref' Info: End of reference (link) `subsection.3.1.4', line 26.
+Package `hyperref' Info: End of reference (link) `subsection.3.1.5', line 27.
+Package `hyperref' Info: End of reference (link) `section.3.2', line 28.
+Package `hyperref' Info: End of reference (link) `section.3.3', line 29.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 30.
+]
+Package hyperref Info: Anchor `chapter.1' on input line 101.
+
+Cap\'{\i }tulo 1.
+pdftex: bookmark at 101: {1} {\numberline{1}Introdu\c {c}\~ao} {chapter.1}{0}{t
+oc}
+(Cap1/cap1.tex
+Package hyperref Info: Anchor `section.1.1' on input line 6.
+
+pdftex: bookmark at 6: {1.1} {\numberline{1.1}Cenário brasileiro de geração 
+fotovoltaica} {section.1.1}{1}{toc}
+Package hyperref Info: Anchor `subsection.1.1.1' on input line 7.
+pdftex: bookmark at 7: {1.1.1} {\numberline{1.1.1}Dados atuais de geração} {s
+ubsection.1.1.1}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 15.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 15.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 16.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 16.
+Package hyperref Info: Reference (link) `table.caption.11' on input line 16.
+Package hyperref Info: Anchor `table.caption.11' on input line 18.
+pdftex: bookmark at 20: {1.1} {\numberline{1.1}{\ignorespaces Geração de ener
+gia elétrica e capacidade instalada no Brasil, 2023--2024.}} {table.caption.11
+}{0}{lot}
+! Undefined control sequence.
+l.21     \legend
+                {Fonte: \citeonline{EPE2025}.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 21.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 21.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 56.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 56.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 60.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 60.
+Package hyperref Info: Anchor `page.18' on input line 61.
+[18
+
+
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 15.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 15.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 16.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 16.
+Package `hyperref' Info: End of reference (link) `table.caption.11', line 16.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 21.
+]
+Package hyperref Info: Anchor `figure.caption.12' on input line 62.
+<figuras/introducao/dado_atuais/oie_2024.png, id=363, 1048.66782pt x 477.28313p
+t>
+File: figuras/introducao/dado_atuais/oie_2024.png Graphic file (type png)
+<use figuras/introducao/dado_atuais/oie_2024.png>
+Package pdftex.def Info: figuras/introducao/dado_atuais/oie_2024.png  used on i
+nput line 64.
+(pdftex.def)             Requested size: 295.90588pt x 134.6725pt.
+<figuras/introducao/dado_atuais/matriz_ele.png, id=365, 960.58875pt x 356.33125
+pt>
+File: figuras/introducao/dado_atuais/matriz_ele.png Graphic file (type png)
+<use figuras/introducao/dado_atuais/matriz_ele.png>
+Package pdftex.def Info: figuras/introducao/dado_atuais/matriz_ele.png  used on
+ input line 65.
+(pdftex.def)             Requested size: 295.90588pt x 109.76558pt.
+
+pdftex: bookmark at 66: {1.1} {\numberline{1.1}{\ignorespaces De cima para abai
+xo: composição percentual da OIE para cada fonte de energia e composição pe
+rcentual da matriz elétrica para cada fonte ambas para 2024.}} {figure.caption
+.12}{0}{lof}
+! Undefined control sequence.
+l.68     \legend
+                {Fonte: \citeonline{EPE2025}.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 68.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 68.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 72.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 72.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 72.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 72.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 72.
+Package hyperref Info: Reference (link) `figure.caption.14' on input line 72.
+Package hyperref Info: Anchor `page.19' on input line 74.
+[19
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 56.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 56.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 60.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 60.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 68.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 68.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 72.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 72.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 72.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 72.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 72.
+Package `hyperref' Info: End of reference (link) `figure.caption.14', line 72.
+ <./figuras/introducao/dado_atuais/oie_2024.png> <./figuras/introducao/dado_atu
+ais/matriz_ele.png (PNG copy)>]
+Package hyperref Info: Anchor `figure.caption.13' on input line 76.
+<figuras/introducao/dado_atuais/crescimento_fontes.png, id=379, 414.54875pt x 3
+54.32375pt>
+File: figuras/introducao/dado_atuais/crescimento_fontes.png Graphic file (type 
+png)
+<use figuras/introducao/dado_atuais/crescimento_fontes.png>
+Package pdftex.def Info: figuras/introducao/dado_atuais/crescimento_fontes.png 
+ used on input line 78.
+(pdftex.def)             Requested size: 227.62206pt x 194.54886pt.
+
+pdftex: bookmark at 79: {1.2} {\numberline{1.2}{\ignorespaces Evolução tempor
+al da participação de cada fonte de energia na OIE(\%) entre 2015 e 2024.}} {
+figure.caption.13}{0}{lof}
+! Undefined control sequence.
+l.80     \legend
+                {Fonte:\citeonline{EPE2025}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 80.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 80.
+Package hyperref Info: Anchor `figure.caption.14' on input line 84.
+<figuras/introducao/dado_atuais/imagem_2026-05-31_204219085.png, id=382, 966.61
+125pt x 275.0275pt>
+File: figuras/introducao/dado_atuais/imagem_2026-05-31_204219085.png Graphic fi
+le (type png)
+<use figuras/introducao/dado_atuais/imagem_2026-05-31_204219085.png>
+Package pdftex.def Info: figuras/introducao/dado_atuais/imagem_2026-05-31_20421
+9085.png  used on input line 86.
+(pdftex.def)             Requested size: 409.71692pt x 116.57669pt.
+pdftex: bookmark at 87: {1.3} {\numberline{1.3}{\ignorespaces Evolução da ger
+ação de energia elétrica por cada fonte.}} {figure.caption.14}{0}{lof}
+! Undefined control sequence.
+l.89     \legend
+                {Fonte:\citeonline{EPE2025}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 89.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 89.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 92.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 92.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 94.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 94.
+Package hyperref Info: Reference (link) `subsection.1.1.5' on input line 94.
+Package hyperref Info: Anchor `page.20' on input line 96.
+[20
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 80.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 80.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 89.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 89.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 92.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 92.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 94.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 94.
+ <./figuras/introducao/dado_atuais/crescimento_fontes.png (PNG copy)> <./figura
+s/introducao/dado_atuais/imagem_2026-05-31_204219085.png (PNG copy)>]
+Package hyperref Info: Anchor `subsection.1.1.2' on input line 98.
+
+pdftex: bookmark at 98: {1.1.2} {\numberline{1.1.2}Comparação com outros paí
+ses} {subsection.1.1.2}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 110.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 110.
+
+Package hyperref Info: Anchor `figure.caption.15' on input line 116.
+<figuras/introducao/comparacao/Brazil_PVOUT_mid-size-map_156x175mm-300dpi_v2019
+1015.preview.jpg, id=398, 129.07083pt x 145.0234pt>
+File: figuras/introducao/comparacao/Brazil_PVOUT_mid-size-map_156x175mm-300dpi_
+v20191015.preview.jpg Graphic file (type jpg)
+<use figuras/introducao/comparacao/Brazil_PVOUT_mid-size-map_156x175mm-300dpi_v
+20191015.preview.jpg>
+Package pdftex.def Info: figuras/introducao/comparacao/Brazil_PVOUT_mid-size-ma
+p_156x175mm-300dpi_v20191015.preview.jpg  used on input line 118.
+(pdftex.def)             Requested size: 136.57462pt x 153.46294pt.
+<figuras/introducao/comparacao/Germany_PVOUT_mid-size-map_156x220mm-300dpi_v201
+91205.preview.jpg, id=399, 102.48322pt x 145.0234pt>
+File: figuras/introducao/comparacao/Germany_PVOUT_mid-size-map_156x220mm-300dpi
+_v20191205.preview.jpg Graphic file (type jpg)
+<use figuras/introducao/comparacao/Germany_PVOUT_mid-size-map_156x220mm-300dpi_
+v20191205.preview.jpg>
+Package pdftex.def Info: figuras/introducao/comparacao/Germany_PVOUT_mid-size-m
+ap_156x220mm-300dpi_v20191205.preview.jpg  used on input line 119.
+(pdftex.def)             Requested size: 136.57462pt x 193.2925pt.
+<figuras/introducao/comparacao/China_PVOUT_mid-size-map_156x152mm-300dpi_v20191
+015.preview.jpg, id=400, 145.0234pt x 141.88124pt>
+File: figuras/introducao/comparacao/China_PVOUT_mid-size-map_156x152mm-300dpi_v
+20191015.preview.jpg Graphic file (type jpg)
+<use figuras/introducao/comparacao/China_PVOUT_mid-size-map_156x152mm-300dpi_v2
+0191015.preview.jpg>
+Package pdftex.def Info: figuras/introducao/comparacao/China_PVOUT_mid-size-map
+_156x152mm-300dpi_v20191015.preview.jpg  used on input line 120.
+(pdftex.def)             Requested size: 136.57462pt x 133.62167pt.
+pdftex: bookmark at 121: {1.4} {\numberline{1.4}{\ignorespaces Mapas de produti
+vidade fotovoltaica (PVOUT) do Brasil, Alemanha e China.}} {figure.caption.15}{
+0}{lof}
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 130.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 130.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 133.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 133.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 137.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 137.
+
+
+LaTeX Warning: Citation `pereira2017atlas' on page 21 undefined on input line 1
+39.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 143.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 143.
+
+Package hyperref Info: Anchor `page.21' on input line 146.
+[21
+Package `hyperref' Info: End of reference (link) `subsection.1.1.5', line 94.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 110
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 110
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 130
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 130
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 133
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 133
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 137
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 137
+.
+]
+Package hyperref Info: Reference (cite) `cite.BMWK2025' on input line 149.
+Package hyperref Info: Reference (cite) `cite.BMWK2025' on input line 149.
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 161.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 161.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 167.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 167.
+
+Package hyperref Info: Reference (cite) `cite.nea2026' on input line 175.
+Package hyperref Info: Reference (cite) `cite.nea2026' on input line 175.
+Package hyperref Info: Anchor `page.22' on input line 177.
+ [22
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 143
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 143
+.
+Package `hyperref' Info: End of reference (cite) `cite.BMWK2025', line 149.
+Package `hyperref' Info: End of reference (cite) `cite.BMWK2025', line 149.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 161
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 161
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 167
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 167
+.
+ <./figuras/introducao/comparacao/Brazil_PVOUT_mid-size-map_156x175mm-300dpi_v2
+0191015.preview.jpg> <./figuras/introducao/comparacao/Germany_PVOUT_mid-size-ma
+p_156x220mm-300dpi_v20191205.preview.jpg> <./figuras/introducao/comparacao/Chin
+a_PVOUT_mid-size-map_156x152mm-300dpi_v20191015.preview.jpg>]
+Package hyperref Info: Reference (cite) `cite.Davidson2026' on input line 183.
+Package hyperref Info: Reference (cite) `cite.Davidson2026' on input line 183.
+Package hyperref Info: Reference (cite) `cite.Davidson2026' on input line 187.
+Package hyperref Info: Reference (cite) `cite.Davidson2026' on input line 187.
+Package hyperref Info: Reference (cite) `cite.PVMagazine2026' on input line 192
+.
+Package hyperref Info: Reference (cite) `cite.PVMagazine2026' on input line 192
+.
+Package hyperref Info: Reference (link) `table.caption.16' on input line 196.
+Package hyperref Info: Anchor `table.caption.16' on input line 200.
+
+pdftex: bookmark at 203: {1.2} {\numberline{1.2}{\ignorespaces Comparativo de p
+otencial solar, capacidade instalada e crescimento: Brasil, China e Alemanha.}}
+ {table.caption.16}{0}{lot}
+! Undefined control sequence.
+l.224 \legend
+             {\textsuperscript{a}~Fonte: \citeonline{WorldBank2020}, referen...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 224.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 224.
+
+
+Overfull \hbox (1.53189pt too wide) in paragraph at lines 205--226
+ [][] 
+ []
+
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 228.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 228.
+Package hyperref Info: Reference (cite) `cite.nea2026' on input line 229.
+Package hyperref Info: Reference (cite) `cite.nea2026' on input line 229.
+Package hyperref Info: Reference (cite) `cite.PVMagazine2026' on input line 229
+.
+Package hyperref Info: Reference (cite) `cite.PVMagazine2026' on input line 229
+.
+Package hyperref Info: Reference (cite) `cite.BMWK2025' on input line 230.
+Package hyperref Info: Reference (cite) `cite.BMWK2025' on input line 230.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 231.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 231.
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 241.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 241.
+
+Package hyperref Info: Anchor `page.23' on input line 252.
+[23
+Package `hyperref' Info: End of reference (cite) `cite.nea2026', line 175.
+Package `hyperref' Info: End of reference (cite) `cite.nea2026', line 175.
+Package `hyperref' Info: End of reference (cite) `cite.Davidson2026', line 183.
+
+Package `hyperref' Info: End of reference (cite) `cite.Davidson2026', line 183.
+
+Package `hyperref' Info: End of reference (cite) `cite.Davidson2026', line 187.
+
+Package `hyperref' Info: End of reference (cite) `cite.Davidson2026', line 187.
+
+Package `hyperref' Info: End of reference (cite) `cite.PVMagazine2026', line 19
+2.
+Package `hyperref' Info: End of reference (cite) `cite.PVMagazine2026', line 19
+2.
+Package `hyperref' Info: End of reference (link) `table.caption.16', line 196.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 241
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 241
+.
+]
+Package hyperref Info: Anchor `subsection.1.1.3' on input line 252.
+
+pdftex: bookmark at 252: {1.1.3} {\numberline{1.1.3}Grande potencial ainda não
+ totalmente aproveitado no Nordeste} {subsection.1.1.3}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.Pereira2017' on input line 261.
+Package hyperref Info: Reference (cite) `cite.Pereira2017' on input line 261.
+Package hyperref Info: Reference (cite) `cite.Pereira2017' on input line 266.
+Package hyperref Info: Reference (cite) `cite.Pereira2017' on input line 266.
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 271.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 271.
+
+Package hyperref Info: Reference (cite) `cite.Pereira2017' on input line 277.
+Package hyperref Info: Reference (cite) `cite.Pereira2017' on input line 277.
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 277.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 277.
+
+Package hyperref Info: Anchor `page.24' on input line 282.
+[24
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 224
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 224
+.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 228.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 228.
+Package `hyperref' Info: End of reference (cite) `cite.nea2026', line 229.
+Package `hyperref' Info: End of reference (cite) `cite.nea2026', line 229.
+Package `hyperref' Info: End of reference (cite) `cite.PVMagazine2026', line 22
+9.
+Package `hyperref' Info: End of reference (cite) `cite.PVMagazine2026', line 22
+9.
+Package `hyperref' Info: End of reference (cite) `cite.BMWK2025', line 230.
+Package `hyperref' Info: End of reference (cite) `cite.BMWK2025', line 230.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 231.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 231.
+Package `hyperref' Info: End of reference (cite) `cite.Pereira2017', line 261.
+Package `hyperref' Info: End of reference (cite) `cite.Pereira2017', line 261.
+Package `hyperref' Info: End of reference (cite) `cite.Pereira2017', line 266.
+Package `hyperref' Info: End of reference (cite) `cite.Pereira2017', line 266.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 271
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 271
+.
+]
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 290.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 290.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 303.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 303.
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 314.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 314.
+
+Package hyperref Info: Reference (link) `Hfootnote.1' on input line 317.
+Package hyperref Info: Anchor `Hfootnote.1' on input line 325.
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 325.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 325.
+
+Package hyperref Info: Anchor `page.25' on input line 328.
+ [25
+Package `hyperref' Info: End of reference (cite) `cite.Pereira2017', line 277.
+Package `hyperref' Info: End of reference (cite) `cite.Pereira2017', line 277.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 277
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 277
+.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 290.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 290.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 303.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 303.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 314
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 314
+.
+Package `hyperref' Info: End of reference (link) `Hfootnote.1', line 317.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 325
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 325
+.
+]
+Package hyperref Info: Reference (link) `table.caption.17' on input line 329.
+Package hyperref Info: Anchor `table.caption.17' on input line 341.
+
+pdftex: bookmark at 344: {1.3} {\numberline{1.3}{\ignorespaces Estimativa de or
+dem de grandeza do potencial de geração fotovoltaica do Nordeste para diferen
+tes frações de ocupação territorial.}} {table.caption.17}{0}{lot}
+! Undefined control sequence.
+l.345 \legend
+             {Fonte: elaborado pelo autor a partir de \citeonline{WorldBank2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 345.
+
+Package hyperref Info: Reference (cite) `cite.WorldBank2020' on input line 345.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.359 \end{table}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 360.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 360.
+! Missing number, treated as zero.
+<to be read again> 
+                   \egroup 
+l.361 ($\approx$\SI{1796}{\kWh\per\kWp\per\year}
+                                                ); área do Nordeste de
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 363.
+Package hyperref Info: Reference (cite) `cite.EPE2025' on input line 363.
+! Too many }'s.
+l.363 ...SI{751}{\tera\watt\hour} \cite{EPE2025}.}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+Package hyperref Info: Anchor `subsection.1.1.4' on input line 365.
+pdftex: bookmark at 365: {1.1.4} {\numberline{1.1.4}Empecilhos para aproveitar 
+o potencial} {subsection.1.1.4}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 374.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 374.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 374.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 374.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 382.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 382.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 391.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 391.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 394.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 394.
+Package hyperref Info: Anchor `page.26' on input line 396.
+[26
+Package `hyperref' Info: End of reference (link) `table.caption.17', line 329.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 345
+.
+Package `hyperref' Info: End of reference (cite) `cite.WorldBank2020', line 345
+.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 360.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 360.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 363.
+Package `hyperref' Info: End of reference (cite) `cite.EPE2025', line 363.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 374.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 374.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 374.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 374.
+]
+Package hyperref Info: Reference (link) `subsection.1.1.3' on input line 399.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 402.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 402.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 409.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 409.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 416.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 416.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 424.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 424.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 429.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 429.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 432.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 432.
+Package hyperref Info: Anchor `page.27' on input line 435.
+ [27
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 382.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 382.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 391.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 391.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 394.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 394.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.3', line 399.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 402.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 402.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 409.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 409.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 416.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 416.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 424.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 424.
+]
+Package hyperref Info: Reference (cite) `cite.Urbanetz2018' on input line 443.
+Package hyperref Info: Reference (cite) `cite.Urbanetz2018' on input line 443.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 447.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 447.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 447.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 447.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 453.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 453.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 457.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 457.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 457.
+Package hyperref Info: Reference (cite) `cite.Fratea2017' on input line 457.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 461.
+Package hyperref Info: Reference (cite) `cite.Queiroz2020' on input line 461.
+Package hyperref Info: Anchor `subsection.1.1.5' on input line 473.
+
+pdftex: bookmark at 473: {1.1.5} {\numberline{1.1.5}Conexão com o trabalho apr
+esentado e sua relevância} {subsection.1.1.5}{2}{toc}
+Package hyperref Info: Anchor `page.28' on input line 482.
+[28
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 429.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 429.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 432.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 432.
+Package `hyperref' Info: End of reference (cite) `cite.Urbanetz2018', line 443.
+
+Package `hyperref' Info: End of reference (cite) `cite.Urbanetz2018', line 443.
+
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 447.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 447.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 447.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 447.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 453.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 453.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 457.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 457.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 457.
+Package `hyperref' Info: End of reference (cite) `cite.Fratea2017', line 457.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 461.
+Package `hyperref' Info: End of reference (cite) `cite.Queiroz2020', line 461.
+]
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 502.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 502.
+Package hyperref Info: Reference (link) `subsection.1.1.4' on input line 512.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 514.
+Package hyperref Info: Reference (cite) `cite.absolar2026infografico' on input 
+line 514.
+Package hyperref Info: Anchor `page.29' on input line 521.
+ [29
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 502.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 502.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.4', line 512.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 514.
+Package `hyperref' Info: End of reference (cite) `cite.absolar2026infografico',
+ line 514.
+]
+Package hyperref Info: Reference (link) `subsection.1.1.3' on input line 523.
+Package hyperref Info: Reference (link) `subsection.1.1.4' on input line 557.
+Package hyperref Info: Anchor `page.30' on input line 569.
+ [30
+Package `hyperref' Info: End of reference (link) `subsection.1.1.3', line 523.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.4', line 557.
+]
+Package hyperref Info: Anchor `section.1.2' on input line 570.
+
+pdftex: bookmark at 570: {1.2} {\numberline{1.2}Objetivo do trabalho} {section.
+1.2}{1}{toc}
+Package hyperref Info: Anchor `section.1.3' on input line 575.
+pdftex: bookmark at 575: {1.3} {\numberline{1.3}Estrutura do texto} {section.1.
+3}{1}{toc}
+)
+Package hyperref Info: Anchor `page.31' on input line 105.
+ [31]
+Package hyperref Info: Anchor `chapter.2' on input line 105.
+
+Cap\'{\i }tulo 2.
+pdftex: bookmark at 105: {2} {\numberline{2}Referencial Te\'orico} {chapter.2}{
+0}{toc}
+(Cap2/cap2.tex
+Package hyperref Info: Anchor `section.2.1' on input line 5.
+
+pdftex: bookmark at 5: {2.1} {\numberline{2.1}Previsão de Geração de Energia
+ Fotovoltaica} {section.2.1}{1}{toc}
+Package hyperref Info: Anchor `subsection.2.1.1' on input line 9.
+pdftex: bookmark at 9: {2.1.1} {\numberline{2.1.1}Especificidades para sistemas
+ fotovoltaicos} {subsection.2.1.1}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.Zhou2022' on input line 31.
+Package hyperref Info: Reference (cite) `cite.Zhou2022' on input line 31.
+Package hyperref Info: Reference (cite) `cite.Kappler2024' on input line 44.
+Package hyperref Info: Reference (cite) `cite.Kappler2024' on input line 44.
+Package hyperref Info: Anchor `page.32' on input line 47.
+[32
+
+Package `hyperref' Info: End of reference (cite) `cite.Zhou2022', line 31.
+Package `hyperref' Info: End of reference (cite) `cite.Zhou2022', line 31.
+]
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Khalyasmaa2020' on input line 56.
+
+Package hyperref Info: Reference (cite) `cite.Khalyasmaa2020' on input line 56.
+
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 56.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 56.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 60.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 60.
+Package hyperref Info: Reference (link) `subsection.2.2.2' on input line 74.
+Package hyperref Info: Anchor `page.33' on input line 82.
+ [33
+Package `hyperref' Info: End of reference (cite) `cite.Kappler2024', line 44.
+Package `hyperref' Info: End of reference (cite) `cite.Kappler2024', line 44.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Khalyasmaa2020', line 56
+.
+Package `hyperref' Info: End of reference (cite) `cite.Khalyasmaa2020', line 56
+.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 56.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 56.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 60.
+
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 60.
+
+Package `hyperref' Info: End of reference (link) `subsection.2.2.2', line 74.
+]
+Package hyperref Info: Anchor `subsection.2.1.2' on input line 83.
+
+pdftex: bookmark at 83: {2.1.2} {\numberline{2.1.2}Diferentes métodos de previ
+são} {subsection.2.1.2}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 95.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 95.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 97.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 97.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 113.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 113.
+
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 115.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 115.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 117.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 117.
+
+Package hyperref Info: Anchor `equation.2.1' on input line 120.
+Package hyperref Info: Anchor `equation.2.1' on input line 120.
+Package hyperref Info: Anchor `equation.2.1' on input line 120.
+Package hyperref Info: Anchor `equation.2.1' on input line 120.
+Package hyperref Info: Anchor `Item.1' on input line 129.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 133.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 133.
+
+Package hyperref Info: Anchor `page.34' on input line 134.
+[34
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 95.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 95.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 97.
+
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 97.
+
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 113
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 113
+.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 115.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 115.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 117
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 117
+.
+]
+Package hyperref Info: Anchor `Item.2' on input line 135.
+Package hyperref Info: Anchor `equation.2.2' on input line 138.
+Package hyperref Info: Anchor `equation.2.2' on input line 138.
+Package hyperref Info: Anchor `equation.2.2' on input line 138.
+Package hyperref Info: Anchor `equation.2.2' on input line 138.
+Package hyperref Info: Anchor `Item.3' on input line 145.
+Package hyperref Info: Anchor `equation.2.3' on input line 147.
+Package hyperref Info: Anchor `equation.2.3' on input line 147.
+Package hyperref Info: Anchor `equation.2.3' on input line 147.
+Package hyperref Info: Anchor `equation.2.3' on input line 147.
+Package hyperref Info: Reference (cite) `cite.Sohani2022' on input line 158.
+Package hyperref Info: Reference (cite) `cite.Sohani2022' on input line 158.
+Package hyperref Info: Reference (link) `equation.2.3' on input line 162.
+Package hyperref Info: Anchor `equation.2.4' on input line 164.
+Package hyperref Info: Anchor `equation.2.4' on input line 164.
+Package hyperref Info: Anchor `equation.2.4' on input line 164.
+Package hyperref Info: Anchor `equation.2.4' on input line 164.
+Package hyperref Info: Reference (cite) `cite.Sohani2022' on input line 171.
+Package hyperref Info: Reference (cite) `cite.Sohani2022' on input line 171.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 176.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 176.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 178.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 178.
+
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 178.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 178.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 180.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 180.
+
+Package hyperref Info: Reference (link) `equation.2.1' on input line 181.
+Package hyperref Info: Anchor `page.35' on input line 183.
+ [35
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 133
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 133
+.
+Package `hyperref' Info: End of reference (cite) `cite.Sohani2022', line 158.
+Package `hyperref' Info: End of reference (cite) `cite.Sohani2022', line 158.
+Package `hyperref' Info: End of reference (link) `equation.2.3', line 162.
+Package `hyperref' Info: End of reference (cite) `cite.Sohani2022', line 171.
+Package `hyperref' Info: End of reference (cite) `cite.Sohani2022', line 171.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 176.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 176.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 178
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 178
+.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 178.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 178.
+]
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 185.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 185.
+
+Package hyperref Info: Anchor `equation.2.5' on input line 188.
+Package hyperref Info: Anchor `equation.2.5' on input line 188.
+Package hyperref Info: Anchor `equation.2.5' on input line 188.
+Package hyperref Info: Anchor `equation.2.5' on input line 188.
+Package hyperref Info: Anchor `equation.2.6' on input line 201.
+Package hyperref Info: Anchor `equation.2.6' on input line 201.
+Package hyperref Info: Anchor `equation.2.6' on input line 201.
+Package hyperref Info: Anchor `equation.2.6' on input line 201.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 207.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 207.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 217.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 217.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 221.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 221.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 223.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 223.
+
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 224.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 224.
+Package hyperref Info: Anchor `page.36' on input line 229.
+ [36
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 180
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 180
+.
+Package `hyperref' Info: End of reference (link) `equation.2.1', line 181.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 185
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 185
+.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 207.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 207.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 217.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 217.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 221
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 221
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 223
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 223
+.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 224.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 224.
+]
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 231.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 231.
+
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 231.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 231.
+Package hyperref Info: Anchor `equation.2.7' on input line 236.
+Package hyperref Info: Anchor `equation.2.7' on input line 236.
+Package hyperref Info: Anchor `equation.2.7' on input line 236.
+Package hyperref Info: Anchor `equation.2.7' on input line 236.
+Package hyperref Info: Reference (link) `equation.2.3' on input line 241.
+Package hyperref Info: Reference (link) `equation.2.4' on input line 241.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 244.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 244.
+
+Package hyperref Info: Anchor `subsection.2.1.3' on input line 252.
+
+pdftex: bookmark at 252: {2.1.3} {\numberline{2.1.3}Horizontes temporais de pre
+visão} {subsection.2.1.3}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 265.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 265.
+Package hyperref Info: Anchor `page.37' on input line 278.
+[37
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 231
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 231
+.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 231.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 231.
+Package `hyperref' Info: End of reference (link) `equation.2.3', line 241.
+Package `hyperref' Info: End of reference (link) `equation.2.4', line 241.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 244
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 244
+.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 265.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 265.
+]
+Package hyperref Info: Anchor `section*.18' on input line 278.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 286.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 286.
+Package hyperref Info: Anchor `section*.19' on input line 291.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 298.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 298.
+
+Overfull \hbox (8.95306pt too wide) in paragraph at lines 293--300
+[]\T1/aer/m/n/12 Estendendo-se de apro-xi-ma-da-mente uma hora a seis ho-ras � 
+frente, essa faixa caracteriza-
+ []
+
+Package hyperref Info: Anchor `section*.20' on input line 301.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 306.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 306.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 310.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 310.
+
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 316.
+Package hyperref Info: Reference (cite) `cite.Andrade2023' on input line 316.
+Package hyperref Info: Anchor `page.38' on input line 317.
+[38
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 286.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 286.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 298.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 298.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 306
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 306
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 310
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 310
+.
+]
+Package hyperref Info: Anchor `section*.21' on input line 323.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 328.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 328.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 329.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 329.
+Package hyperref Info: Anchor `section*.22' on input line 333.
+Package hyperref Info: Reference (link) `table.caption.23' on input line 335.
+Package hyperref Info: Anchor `table.caption.23' on input line 339.
+
+pdftex: bookmark at 341: {2.1} {\numberline{2.1}{\ignorespaces Comparativo das 
+faixas de horizonte temporal de previsão de geração fotovoltaica.}} {table.c
+aption.23}{0}{lot}
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\T1/aer/b/n/12 Horizonte
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 345--346
+[]|\T1/aer/b/n/12 Aplica��es prin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\T1/aer/m/n/12 Alt�ssimo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\T1/aer/m/n/12 curto prazo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]|\T1/aer/m/n/12 Imageadores de
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 348--348
+\T1/aer/m/n/12 de mo-vi-mento de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\T1/aer/m/n/12 nu-vens, mo-de-los
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 349--350
+\T1/aer/m/n/12 so-res, ges-t�o de
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 351--351
+[]|\T1/aer/m/n/12 Curto prazo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+[]|\T1/aer/m/n/12 Extrapola��o de
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 352--352
+\T1/aer/m/n/12 ima-gens de sa-t�-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+\T1/aer/m/n/12 lite, apren-di-zado
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+[]|\T1/aer/m/n/12 Despacho intra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+\T1/aer/m/n/12 dia, mer-cado
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 353--354
+\T1/aer/m/n/12 de curto prazo,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+[]|\T1/aer/m/n/12 Um dia �
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+\T1/aer/m/n/12 frente (\T1/aer/m/it/12 day-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\T1/aer/m/n/12 NWP aco-plado
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/aer/m/n/12 a mo-de-los de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/aer/m/n/12 apren-di-zado de
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 356--356
+\T1/aer/m/n/12 m�-quina, ou mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/aer/m/n/12 de-los pu-ra-mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/aer/m/n/12 en-d�-ge-nos so-bre
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 357--358
+[]|\T1/aer/m/n/12 Programa��o do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\T1/aer/m/n/12 M�dio e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+[]|\T1/aer/m/n/12 Planejamento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+\T1/aer/m/n/12 ener-g�-tico, di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+\T1/aer/m/n/12 men-si-o-na-mento
+ []
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 365.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 365.
+
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 365.
+Package hyperref Info: Reference (cite) `cite.Tian2023' on input line 365.
+Package hyperref Info: Reference (link) `subsection.1.1.5' on input line 377.
+Package hyperref Info: Anchor `page.39' on input line 386.
+[39
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 316.
+Package `hyperref' Info: End of reference (cite) `cite.Andrade2023', line 316.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 328.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 328.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 329.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 329.
+Package `hyperref' Info: End of reference (link) `table.caption.23', line 335.
+Package `hyperref' Info: End of reference (link) `subsection.1.1.5', line 377.
+]
+Package hyperref Info: Anchor `subsection.2.1.4' on input line 386.
+LaTeX Font Info:    Font shape `T1/aer/b/it' in size <14.4> not available
+(Font)              Font shape `T1/aer/bx/it' tried instead on input line 386.
+
+pdftex: bookmark at 386: {2.1.4} {\numberline{2.1.4}Modelos de referência (\te
+xtit {baselines})} {subsection.2.1.4}{2}{toc}
+Package hyperref Info: Reference (link) `section.3.3' on input line 395.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 397.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 397.
+
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 403.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 403.
+Package hyperref Info: Anchor `page.40' on input line 405.
+[40
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 365
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 365
+.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 365.
+Package `hyperref' Info: End of reference (cite) `cite.Tian2023', line 365.
+Package `hyperref' Info: End of reference (link) `section.3.3', line 395.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 397
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 397
+.
+]
+Package hyperref Info: Anchor `equation.2.8' on input line 407.
+Package hyperref Info: Anchor `equation.2.8' on input line 407.
+Package hyperref Info: Anchor `equation.2.8' on input line 407.
+Package hyperref Info: Anchor `equation.2.8' on input line 407.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 412.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 412.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 417.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 417.
+
+Package hyperref Info: Anchor `equation.2.9' on input line 422.
+Package hyperref Info: Anchor `equation.2.9' on input line 422.
+Package hyperref Info: Anchor `equation.2.9' on input line 422.
+Package hyperref Info: Anchor `equation.2.9' on input line 422.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 431.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 431.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 434.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 434.
+Package hyperref Info: Anchor `equation.2.10' on input line 441.
+Package hyperref Info: Anchor `equation.2.10' on input line 441.
+Package hyperref Info: Anchor `equation.2.10' on input line 441.
+Package hyperref Info: Anchor `equation.2.10' on input line 441.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 450.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 450.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 454.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 454.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 454.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 454.
+
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 456.
+Package hyperref Info: Reference (cite) `cite.Sarmas2022' on input line 456.
+Package hyperref Info: Anchor `page.41' on input line 457.
+ [41
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 403.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 403.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 412.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 412.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 417
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 417
+.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 431.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 431.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 434.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 434.
+]
+Package hyperref Info: Reference (link) `subsection.2.1.2' on input line 458.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 461.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 461.
+
+Package hyperref Info: Reference (link) `chapter.3' on input line 465.
+Package hyperref Info: Anchor `subsection.2.1.5' on input line 473.
+
+pdftex: bookmark at 473: {2.1.5} {\numberline{2.1.5}Abordagem utilizada} {subse
+ction.2.1.5}{2}{toc}
+Package hyperref Info: Anchor `section.2.2' on input line 481.
+pdftex: bookmark at 481: {2.2} {\numberline{2.2}Aprendizado de Máquina para S�
+�ries Temporais} {section.2.2}{1}{toc}
+Package hyperref Info: Anchor `subsection.2.2.1' on input line 485.
+pdftex: bookmark at 485: {2.2.1} {\numberline{2.2.1}Fundamentos do aprendizado 
+de máquina} {subsection.2.2.1}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 491.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 491.
+Package hyperref Info: Reference (cite) `cite.bishop2006' on input line 498.
+Package hyperref Info: Reference (cite) `cite.bishop2006' on input line 498.
+Package hyperref Info: Anchor `page.42' on input line 502.
+[42
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 450.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 450.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 454.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 454.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 454
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 454
+.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 456.
+Package `hyperref' Info: End of reference (cite) `cite.Sarmas2022', line 456.
+Package `hyperref' Info: End of reference (link) `subsection.2.1.2', line 458.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 461
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 461
+.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 465.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 491.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 491.
+]
+Package hyperref Info: Reference (link) `equation.2.5' on input line 503.
+Package hyperref Info: Anchor `equation.2.11' on input line 512.
+Package hyperref Info: Anchor `equation.2.11' on input line 512.
+Package hyperref Info: Anchor `equation.2.11' on input line 512.
+Package hyperref Info: Anchor `equation.2.11' on input line 512.
+Package hyperref Info: Reference (cite) `cite.vapnik1999' on input line 520.
+Package hyperref Info: Reference (cite) `cite.vapnik1999' on input line 520.
+Package hyperref Info: Reference (cite) `cite.hyndman2021' on input line 533.
+Package hyperref Info: Reference (cite) `cite.hyndman2021' on input line 533.
+
+
+LaTeX Warning: Reference `eq:perda_empirica' on page 43 undefined on input line
+ 544.
+
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 548.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 548.
+Package hyperref Info: Anchor `page.43' on input line 549.
+[43
+Package `hyperref' Info: End of reference (cite) `cite.bishop2006', line 498.
+Package `hyperref' Info: End of reference (cite) `cite.bishop2006', line 498.
+Package `hyperref' Info: End of reference (link) `equation.2.5', line 503.
+Package `hyperref' Info: End of reference (cite) `cite.vapnik1999', line 520.
+Package `hyperref' Info: End of reference (cite) `cite.vapnik1999', line 520.
+Package `hyperref' Info: End of reference (cite) `cite.hyndman2021', line 533.
+Package `hyperref' Info: End of reference (cite) `cite.hyndman2021', line 533.
+]
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 558.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 558.
+Package hyperref Info: Reference (cite) `cite.geman1992' on input line 562.
+Package hyperref Info: Reference (cite) `cite.geman1992' on input line 562.
+Package hyperref Info: Reference (link) `equation.2.5' on input line 571.
+Package hyperref Info: Anchor `equation.2.12' on input line 575.
+Package hyperref Info: Anchor `equation.2.12' on input line 575.
+Package hyperref Info: Anchor `equation.2.12' on input line 575.
+Package hyperref Info: Anchor `equation.2.12' on input line 575.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 603.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 603.
+Package hyperref Info: Anchor `page.44' on input line 608.
+ [44
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 548.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 548.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 558.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 558.
+Package `hyperref' Info: End of reference (cite) `cite.geman1992', line 562.
+Package `hyperref' Info: End of reference (cite) `cite.geman1992', line 562.
+Package `hyperref' Info: End of reference (link) `equation.2.5', line 571.
+]
+Package hyperref Info: Reference (link) `subsection.2.2.2' on input line 613.
+Package hyperref Info: Anchor `subsection.2.2.2' on input line 618.
+
+pdftex: bookmark at 618: {2.2.2} {\numberline{2.2.2}\textit {Cross-validation} 
+para séries temporais} {subsection.2.2.2}{2}{toc}
+Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 626.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 634.
+Package hyperref Info: Reference (cite) `cite.hastie2009' on input line 634.
+Package hyperref Info: Anchor `figure.caption.24' on input line 636.
+<figuras/referencial_teorico/kfold.png, id=803, 914.66719pt x 324.46219pt>
+File: figuras/referencial_teorico/kfold.png Graphic file (type png)
+<use figuras/referencial_teorico/kfold.png>
+Package pdftex.def Info: figuras/referencial_teorico/kfold.png  used on input l
+ine 638.
+(pdftex.def)             Requested size: 386.96027pt x 137.26831pt.
+pdftex: bookmark at 639: {2.1} {\numberline{2.1}{\ignorespaces Validação cruz
+ada \textit {$K$-fold} convencional, com particionamento aleatório que descons
+idera a ordem cronológica.}} {figure.caption.24}{0}{lof}
+! Undefined control sequence.
+l.641     \fonte
+                {Fonte: Elaborada pelo autor.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 647.
+Package hyperref Info: Reference (link) `figure.caption.24' on input line 648.
+Package hyperref Info: Reference (cite) `cite.hyndman2021' on input line 656.
+Package hyperref Info: Reference (cite) `cite.hyndman2021' on input line 656.
+Package hyperref Info: Anchor `page.45' on input line 657.
+[45
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 603.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 603.
+Package `hyperref' Info: End of reference (link) `subsection.2.2.2', line 613.
+Package `hyperref' Info: End of reference (link) `subsection.2.2.1', line 626.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 634.
+Package `hyperref' Info: End of reference (cite) `cite.hastie2009', line 634.
+Package `hyperref' Info: End of reference (link) `subsection.2.2.1', line 647.
+Package `hyperref' Info: End of reference (link) `figure.caption.24', line 648.
+
+]
+Package hyperref Info: Reference (cite) `cite.Kappler2024' on input line 665.
+Package hyperref Info: Reference (cite) `cite.Kappler2024' on input line 665.
+Package hyperref Info: Reference (link) `figure.caption.25' on input line 674.
+Package hyperref Info: Reference (cite) `cite.hyndman2021' on input line 680.
+Package hyperref Info: Reference (cite) `cite.hyndman2021' on input line 680.
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 681.
+
+Package hyperref Info: Reference (cite) `cite.Markovics2022' on input line 681.
+
+Package hyperref Info: Anchor `page.46' on input line 685.
+ [46
+Package `hyperref' Info: End of reference (cite) `cite.hyndman2021', line 656.
+Package `hyperref' Info: End of reference (cite) `cite.hyndman2021', line 656.
+Package `hyperref' Info: End of reference (cite) `cite.Kappler2024', line 665.
+Package `hyperref' Info: End of reference (cite) `cite.Kappler2024', line 665.
+Package `hyperref' Info: End of reference (link) `figure.caption.25', line 674.
+
+ <./figuras/referencial_teorico/kfold.png>]
+Package hyperref Info: Anchor `figure.caption.25' on input line 686.
+<figuras/referencial_teorico/walking_window.png, id=826, 928.21782pt x 433.62pt
+>
+File: figuras/referencial_teorico/walking_window.png Graphic file (type png)
+<use figuras/referencial_teorico/walking_window.png>
+Package pdftex.def Info: figuras/referencial_teorico/walking_window.png  used o
+n input line 688.
+(pdftex.def)             Requested size: 386.96027pt x 180.7694pt.
+
+pdftex: bookmark at 690: {2.2} {\numberline{2.2}{\ignorespaces Validação cruz
+ada em janela progressiva expansiva (\textit {walk-forward}), em que o horizont
+e de treinamento cresce e o teste é sempre o bloco posterior.}} {figure.captio
+n.25}{0}{lof}
+! Undefined control sequence.
+l.692     \fonte
+                {Fonte: Elaborada pelo autor.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: Reference (link) `figure.caption.26' on input line 696.
+
+Package caption Warning: \label without proper reference on input line 715.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:sliding_window' on page 47 undefined on input lin
+e 696.
+
+Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 709.
+Package hyperref Info: Anchor `figure.caption.26' on input line 712.
+<figuras/referencial_teorico/sliding_window.png, id=829, 919.18407pt x 394.4737
+5pt>
+File: figuras/referencial_teorico/sliding_window.png Graphic file (type png)
+<use figuras/referencial_teorico/sliding_window.png>
+Package pdftex.def Info: figuras/referencial_teorico/sliding_window.png  used o
+n input line 714.
+(pdftex.def)             Requested size: 386.96027pt x 166.06908pt.
+pdftex: bookmark at 716: {2.3} {\numberline{2.3}{\ignorespaces Validação cruz
+ada em janela deslizante (\textit {sliding window}), em que o conjunto de trein
+amento tem largura fixa e avança no tempo, descartando as observações mais a
+ntigas.}} {figure.caption.26}{0}{lof}
+! Undefined control sequence.
+l.717     \fonte
+                {Fonte: Elaborada pelo autor.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package hyperref Info: Reference (link) `chapter.3' on input line 727.
+)
+Package hyperref Info: Anchor `page.47' on input line 108.
+ [47
+Package `hyperref' Info: End of reference (cite) `cite.hyndman2021', line 680.
+Package `hyperref' Info: End of reference (cite) `cite.hyndman2021', line 680.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 681
+.
+Package `hyperref' Info: End of reference (cite) `cite.Markovics2022', line 681
+.
+Package `hyperref' Info: End of reference (link) `figure.caption.26', line 696.
+
+Package `hyperref' Info: End of reference (link) `subsection.2.2.1', line 709.
+ <./figuras/referencial_teorico/walking_window.png>]
+Package hyperref Info: Anchor `page.48' on input line 109.
+ [48
+Package `hyperref' Info: End of reference (link) `chapter.3', line 727.
+ <./figuras/referencial_teorico/sliding_window.png>]
+Package hyperref Info: Anchor `chapter.3' on input line 109.
+
+Cap\'{\i }tulo 3.
+pdftex: bookmark at 109: {3} {\numberline{3}Materiais e M\'etodos} {chapter.3}{
+0}{toc}
+(Cap3/cap3.tex
+Package hyperref Info: Anchor `section.3.1' on input line 8.
+
+pdftex: bookmark at 8: {3.1} {\numberline{3.1}Dados Meteorológicos e Variávei
+s de Entrada} {section.3.1}{1}{toc}
+Package hyperref Info: Anchor `subsection.3.1.1' on input line 12.
+pdftex: bookmark at 12: {3.1.1} {\numberline{3.1.1}O conjunto de dados das usin
+as} {subsection.3.1.1}{2}{toc}
+Package hyperref Info: Anchor `subsection.3.1.2' on input line 21.
+pdftex: bookmark at 21: {3.1.2} {\numberline{3.1.2}Variáveis calculadas} {subs
+ection.3.1.2}{2}{toc}
+Package hyperref Info: Anchor `subsection.3.1.3' on input line 29.
+pdftex: bookmark at 29: {3.1.3} {\numberline{3.1.3}Pré-processamento dos dados
+} {subsection.3.1.3}{2}{toc}
+Package hyperref Info: Anchor `subsection.3.1.4' on input line 37.
+pdftex: bookmark at 37: {3.1.4} {\numberline{3.1.4}Engenharia de \textit {featu
+res}} {subsection.3.1.4}{2}{toc}
+Package hyperref Info: Anchor `subsection.3.1.5' on input line 45.
+pdftex: bookmark at 45: {3.1.5} {\numberline{3.1.5}Conjunto final de variáveis
+} {subsection.3.1.5}{2}{toc}
+Package hyperref Info: Anchor `section.3.2' on input line 69.
+pdftex: bookmark at 69: {3.2} {\numberline{3.2}Modelos Adotados} {section.3.2}{
+1}{toc}
+Package hyperref Info: Anchor `section.3.3' on input line 80.
+LaTeX Font Info:    Font shape `T1/aer/b/it' in size <17.28> not available
+(Font)              Font shape `T1/aer/bx/it' tried instead on input line 80.
+pdftex: bookmark at 80: {3.3} {\numberline{3.3}Métricas de Avaliação e \text
+it {Benchmarks}} {section.3.3}{1}{toc}
+) (tese.bbl (tese.brf)
+\tf@brf=\write12
+\openout12 = `tese.brf'.
+
+Package hyperref Info: Anchor `page.49' on input line 3.
+ [49
+
+]
+Package hyperref Info: Anchor `chapter*.27' on input line 3.
+Package hyperref Info: Anchor `chapter.4' on input line 3.
+
+pdftex: bookmark at 3: {4} {Refer\^encias} {chapter.4}{0}{toc}
+Package hyperref Info: Anchor `cite.Andrade2023' on input line 13.
+Package hyperref Info: Anchor `cite.absolar2026infografico' on input line 23.
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 2
+3.
+LaTeX Font Info:    No file TS1aer.fd. on input line 23.
+
+LaTeX Font Warning: Font shape `TS1/aer/b/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textordmasculine' on input line 23.
+
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
+3.
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Package hyperref Info: Anchor `cite.bishop2006' on input line 28.
+Package hyperref Info: Anchor `cite.BMWK2025' on input line 38.
+Package hyperref Info: Anchor `cite.Davidson2026' on input line 44.
+Package hyperref Info: Anchor `cite.EPE2025' on input line 52.
+Package hyperref Info: Anchor `cite.Fratea2017' on input line 59.
+Package hyperref Info: Anchor `cite.geman1992' on input line 65.
+Package hyperref Info: Anchor `cite.hastie2009' on input line 71.
+Package hyperref Info: Anchor `cite.hyndman2021' on input line 76.
+Package hyperref Info: Anchor `cite.Kappler2024' on input line 82.
+Package hyperref Info: Anchor `cite.Khalyasmaa2020' on input line 88.
+Package hyperref Info: Anchor `page.50' on input line 94.
+
+[50
+
+Package `hyperref' Info: End of reference (link) `chapter.3', line 727.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 727.
+]
+Package hyperref Info: Anchor `cite.Markovics2022' on input line 94.
+Package hyperref Info: Anchor `cite.nea2026' on input line 103.
+Package hyperref Info: Anchor `cite.Pereira2017' on input line 109.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.109 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...labren.ccst.inpe.br/atlas_2017.html}
+                                                   
+l.109 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.109 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.109 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Package hyperref Info: Anchor `cite.PVMagazine2026' on input line 116.
+Package hyperref Info: Anchor `cite.Queiroz2020' on input line 123.
+Package hyperref Info: Anchor `cite.Sarmas2022' on input line 129.
+Package hyperref Info: Anchor `cite.Sohani2022' on input line 135.
+Package hyperref Info: Anchor `cite.WorldBank2020' on input line 142.
+Package hyperref Info: Anchor `cite.Tian2023' on input line 149.
+Package hyperref Info: Anchor `cite.Urbanetz2018' on input line 155.
+Package hyperref Info: Anchor `cite.vapnik1999' on input line 160.
+Package hyperref Info: Anchor `cite.Zhou2022' on input line 167.
+)
+Package hyperref Info: Anchor `page.51' on input line 153.
+ [51
+Package `hyperref' Info: End of reference (link) `chapter.3', line 727.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 727.
+]
+\bottommargin=\skip83
+\rightmarginn=\skip84
+Package hyperref Info: Anchor `bla.0' on input line 153.
+ (PreTextuais/resumo.tex) (PreTextuais/resumo.tex)
+(PreTextuais/resumo.tex)
+Overfull \hbox (74.53033pt too wide) in paragraph at lines 153--153
+[][] 
+ []
+
+Package hyperref Info: Anchor `page.52' on input line 155.
+[52
+
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(tese.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `tese.out' has not changed.
+(rerunfilecheck)             Checksum: 99740D365758408A7362B3BF2382AB88;9381.
+Package rerunfilecheck Info: File `tese.brf' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 20441 strings out of 467871
+ 409662 string characters out of 5416925
+ 782163 words of memory out of 5000000
+ 48677 multiletter control sequences out of 15000+600000
+ 699283 words of font info for 174 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 105i,12n,107p,919b,1212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Usuário\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
+crm0800.pk> <C:\Users\Usuário\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1200.pk><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmb10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuário/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Usuário/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users
+/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuário/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuário/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Usuári
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb>
+<C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuário/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuário/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usu�
+�rio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
+/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmti8.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Usuário/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Usuário/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tese.pdf (53 pages, 1250918 bytes).
+PDF statistics:
+ 1012 PDF objects out of 1200 (max. 8388607)
+ 164 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,136 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Andrade et al. 2023]{Andrade2023}
+\abntrefinfo{Andrade et al.}{ANDRADE et al.}{2023}
+{ANDRADE, C. H. T.~d. et al. How does neural network model capacity affect
+  photovoltaic power prediction? a study case.
+\textbf{Sensors}, v.~23, n.~3, p.~1357, 2023.}
+
+\bibitem[{Associação Brasileira de Energia Solar Fotovoltaica}
+  2026]{absolar2026infografico}
+\abntrefinfo{{Associação Brasileira de Energia Solar
+  Fotovoltaica}}{{Associação Brasileira de Energia Solar Fotovoltaica}}{2026}
+{{Associação Brasileira de Energia Solar Fotovoltaica}. \textbf{Infográfico
+  ABSOLAR nº 91: energia solar fotovoltaica no Brasil}. São Paulo: [s.n.],
+  2026. \url{https://www.absolar.org.br/mercado/infografico/}.
+Acesso em: 1 jun. 2026.}
+
+\bibitem[{Bundesministerium f{\"u}r Wirtschaft und Klimaschutz} 2025]{BMWK2025}
+\abntrefinfo{{Bundesministerium f{\"u}r Wirtschaft und
+  Klimaschutz}}{{Bundesministerium f{\"u}r Wirtschaft und Klimaschutz}}{2025}
+{{Bundesministerium f{\"u}r Wirtschaft und Klimaschutz}. \textbf{Erneuerbare
+  Energien in Deutschland: Daten zur Entwicklung der Photovoltaik}. Berlin:
+  [s.n.], 2025. \url{https://www.bmwk.de/}.
+Minist{\'e}rio Federal da Economia e Prote{\c c}{\~a}o Clim{\'a}tica da
+  Alemanha. Acesso em: 1 jun. 2026.}
+
+\bibitem[Davidson e Qian 2026]{Davidson2026}
+\abntrefinfo{Davidson e Qian}{DAVIDSON; QIAN}{2026}
+{DAVIDSON, M.; QIAN, S. \textbf{China's Solar Industry Is in Upheaval -- The
+  Effects Will Be Global}.
+Washington, DC, 2026. Dispon{\'\i}vel em: \url{https://www.csis.org/}.}
+
+\bibitem[{Empresa de Pesquisa Energ{\'e}tica} 2025]{EPE2025}
+\abntrefinfo{{Empresa de Pesquisa Energ{\'e}tica}}{{Empresa de Pesquisa
+  Energ{\'e}tica}}{2025}
+{{Empresa de Pesquisa Energ{\'e}tica}. \textbf{Balan{\c c}o Energ{\'e}tico
+  Nacional 2025: Relat{\'o}rio S{\'i}ntese -- Ano base 2024}.
+Rio de Janeiro, 2025. Dispon{\'\i}vel em:
+  \url{https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-2025}.}
+
+\bibitem[Fratea e Brannstrom 2017]{Fratea2017}
+\abntrefinfo{Fratea e Brannstrom}{FRATEA; BRANNSTROM}{2017}
+{FRATEA, C.~A.; BRANNSTROM, C. Stakeholder subjectivities regarding barriers
+  and drivers to the introduction of utility-scale solar photovoltaic power in
+  {Brazil}.
+\textbf{Energy Policy}, v.~111, p. 346--352, 2017.}
+
+\bibitem[Kappler et al. 2024]{Kappler2024}
+\abntrefinfo{Kappler et al.}{KAPPLER et al.}{2024}
+{KAPPLER, T. et al. Detection of shading for short-term power forecasting of
+  photovoltaic systems using machine learning techniques.
+\textbf{EPJ Photovoltaics}, v.~15, p.~17, 2024.}
+
+\bibitem[Khalyasmaa et al. 2020]{Khalyasmaa2020}
+\abntrefinfo{Khalyasmaa et al.}{KHALYASMAA et al.}{2020}
+{KHALYASMAA, A.~I. et al. Industry experience of developing day-ahead
+  photovoltaic plant forecasting system based on machine learning.
+\textbf{Remote Sensing}, v.~12, n.~20, p.~3420, 2020.}
+
+\bibitem[Markovics e Mayer 2022]{Markovics2022}
+\abntrefinfo{Markovics e Mayer}{MARKOVICS; MAYER}{2022}
+{MARKOVICS, D.; MAYER, M.~J. Comparison of machine learning methods for
+  photovoltaic power forecasting based on numerical weather prediction.
+\textbf{Renewable and Sustainable Energy Reviews}, v.~161, p. 112364, 2022.}
+
+\bibitem[{National Energy Administration of China} 2026]{nea2026}
+\abntrefinfo{{National Energy Administration of China}}{{National Energy
+  Administration of China}}{2026}
+{{National Energy Administration of China}. \textbf{Statistics on national
+  photovoltaic power generation capacity and annual additions}. Beijing:
+  [s.n.], 2026. \url{http://www.nea.gov.cn/}.
+Administra{\c c}{\~a}o Nacional de Energia da China. Acesso em: 1 jun. 2026.}
+
+\bibitem[Pereira et al. 2017]{Pereira2017}
+\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2017}
+{PEREIRA, E.~B. et al. \textbf{Atlas Brasileiro de Energia Solar}. 2. ed.
+  S{\~a}o Jos{\'e} dos Campos: INPE, 2017. Dispon{\'\i}vel em:
+  \url{http://labren.ccst.inpe.br/atlas\_2017.html}.}
+
+\bibitem[{pv magazine} 2026]{PVMagazine2026}
+\abntrefinfo{{pv magazine}}{{pv magazine}}{2026}
+{{pv magazine}. \textbf{China adds 315 {GW} of solar in 2025}. 2026.
+  \url{https://www.pv-magazine.com/2026/01/28/china-adds-315-gw-of-solar-in-2025/}.
+Acesso em: 1 jun. 2026.}
+
+\bibitem[Queiroz et al. 2020]{Queiroz2020}
+\abntrefinfo{Queiroz et al.}{QUEIROZ et al.}{2020}
+{QUEIROZ, J.~V. et al. Barriers to expand solar photovoltaic energy in
+  {Brazil}.
+\textbf{Independent Journal of Management \& Production}, v.~11, n.~7, p.
+  2733--2756, 2020.}
+
+\bibitem[Sarmas et al. 2022]{Sarmas2022}
+\abntrefinfo{Sarmas et al.}{SARMAS et al.}{2022}
+{SARMAS, E. et al. Transfer learning strategies for solar power forecasting
+  under data scarcity.
+\textbf{Scientific Reports}, v.~12, p. 14643, 2022.}
+
+\bibitem[Sohani et al. 2022]{Sohani2022}
+\abntrefinfo{Sohani et al.}{SOHANI et al.}{2022}
+{SOHANI, A. et al. Using machine learning in photovoltaics to create smarter
+  and cleaner energy generation systems: A comprehensive review.
+\textbf{Journal of Cleaner Production}, v.~364, p. 132701, 2022.}
+
+\bibitem[Suri et al. 2020]{WorldBank2020}
+\abntrefinfo{Suri et al.}{SURI et al.}{2020}
+{SURI, M. et al. \textbf{Global Photovoltaic Power Potential by Country}.
+Washington, DC, 2020. Dispon{\'\i}vel em:
+  \url{https://globalsolaratlas.info/global-pv-potential-study}.}
+
+\bibitem[Tian, Ooka e Lee 2023]{Tian2023}
+\abntrefinfo{Tian, Ooka e Lee}{TIAN; OOKA; LEE}{2023}
+{TIAN, J.; OOKA, R.; LEE, D. Multi-scale solar radiation and photovoltaic power
+  forecasting with machine learning algorithms in urban environment: A
+  state-of-the-art review.
+\textbf{Journal of Cleaner Production}, v.~426, p. 139040, 2023.}
+
+\bibitem[Urbanetz et al. 2018]{Urbanetz2018}
+\abntrefinfo{Urbanetz et al.}{URBANETZ et al.}{2018}
+{URBANETZ, I.~V. et al. Panorama atual e cen{\'a}rio 2025 da energia solar
+  fotovoltaica no {Brasil}. In:  \textbf{Anais do Smart Energy}. Curitiba:
+  [s.n.], 2018.}
+
+\bibitem[Zhou et al. 2022]{Zhou2022}
+\abntrefinfo{Zhou et al.}{ZHOU et al.}{2022}
+{ZHOU, N. et al. Spatio-temporal probabilistic forecasting of photovoltaic
+  power based on monotone broad learning system and copula theory.
+\textbf{IEEE Transactions on Sustainable Energy}, v.~13, n.~4, p. 1874--1885,
+  2022.}
+
+\end{thebibliography}

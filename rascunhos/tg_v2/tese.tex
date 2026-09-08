@@ -1,0 +1,155 @@
+%%% Trabalho de Graduação — ITA
+%%% Previsão de Geração Fotovoltaica com Aprendizado de Máquina
+%%%
+%%% Baseado no template ITA (AlejandroRios/Template_Thesis_ITA)
+%%%
+%%% Tipo de documento:
+%%%   \documentclass[tg]{ita}      = Trabalho de Graduação (masculino)
+%%%   \documentclass[tgfem]{ita}   = Trabalho de Graduação (feminino)
+%%%   Adicionar 'dv' para Draft Version com data no rodapé
+%%%   Adicionar 'eng' para trabalho em inglês
+%%%
+\documentclass[tg]{ita}
+
+\usepackage{ae}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{eurosym}
+\usepackage{url}
+\usepackage{lscape}
+\usepackage{placeins}
+
+% Unidades personalizadas
+\DeclareSIUnit\kWh{kWh}
+\DeclareSIUnit\kWp{kWp}
+\DeclareSIUnit\peak{p}
+\sisetup{per-mode=repeated-symbol}
+
+%+------------------------------------------------------------+
+% Espaçamento
+%+------------------------------------------------------------+
+\onehalfspacing
+
+%+------------------------------------------------------------+
+% Identificações do trabalho
+%+------------------------------------------------------------+
+\course{Engenharia Mecânica}
+
+% Autor: {Nome} {Sobrenome}
+\authorgender{masc}
+\author{Pedro Arthur Sales}{Rebou\c{c}as}
+\itaauthoraddress{}{12.228-900}{S\~ao Jos\'e dos Campos--SP}
+
+% Título
+\title{Desenvolvimento de um Modelo de Previs\~ao de Gera\c{c}\~ao de
+       Energia El\'etrica de Usinas Fotovoltaicas Utilizando
+       Aprendizado de M\'aquina}
+
+% Orientador
+\advisorgender{masc}
+\advisor{Prof.~Dr.}{Rodrigo Arnaldo Scarpel}{ITA}
+
+% Coorientador — comentar se não houver
+% \coadvisorgender{masc}
+% \coadvisor{Prof.~Dr.}{Nome Coorientador}{INSTITUIÇÃO}
+
+% Pró-reitor (preencher com o atual)
+\bossgender{masc}
+\boss{Prof.~Dr.}{Nome do Pr\'o-Reitor}
+
+% Coordenador do curso
+\bosscoursegender{masc}
+\bosscourse{Prof.~Dr.}{Nome do Coordenador}
+
+% Palavras-chave para CIP (biblioteca)
+\kwcip{Energia fotovoltaica}
+\kwcip{Aprendizado de m\'aquina}
+\kwcip{Previs\~ao de gera\c{c}\~ao}
+\kwcip{S\'eries temporais}
+
+% Banca examinadora
+\examiner{Prof. Dr.}{Rodrigo Arnaldo Scarpel}{Presidente}{ITA}
+\examiner{Prof. Dr.}{Membro da Banca 2}{}{ITA}
+\examiner{Prof. Dr.}{Membro da Banca 3}{}{ITA}
+
+% Data da defesa: {dia}{mês}{ano}
+\date{}{}{2026}
+
+% CDU (solicitar à biblioteca)
+\cdu{???}
+
+% Glossário
+\makeglossary
+\frontmatter
+
+\begin{document}
+
+% Pré-textuais
+\input{PreTextuais/main}
+
+\mainmatter
+
+% ============================================================
+% Capítulos
+% ============================================================
+\chapter{Introdu\c{c}\~ao}
+\label{cap:introducao}
+\input{Cap1/cap1}
+
+\chapter{Referencial Te\'orico}
+\label{cap:referencial_teorico}
+\input{Cap2/cap2}
+
+\chapter{Materiais e M\'etodos}
+\label{cap:materiais_metodos}
+\input{Cap3/cap3}
+
+% Capítulos futuros — descomentar quando prontos
+% \chapter{Resultados}
+% \label{cap:resultados}
+% \input{Cap4/cap4}
+
+% \chapter{Conclus\~ao}
+% \label{cap:conclusao}
+% \input{Cap5/cap5}
+
+% ============================================================
+% Referências bibliográficas
+% ============================================================
+\renewcommand\bibname{\itareferencesnamebabel}
+\bibliography{Referencias/referencias}
+
+% ============================================================
+% Apêndices (se houver)
+% ============================================================
+% \appendix
+% \chapter{T\'itulo do Ap\^endice}
+% \input{ApeA/apendiceA}
+
+% ============================================================
+% Anexos (se houver)
+% ============================================================
+% \annex
+% \chapter{T\'itulo do Anexo}
+% \input{AneA/anexoA}
+
+% ============================================================
+% Folha de Registro do Documento
+% ============================================================
+\FRDitadata{2026}
+\FRDitadocnro{DCTA/ITA/TG-???/2026}
+\FRDitaorgaointerno{Instituto Tecnol\'ogico de Aeron\'autica -- ITA}
+\FRDitapalavrasautor{Energia fotovoltaica; Aprendizado de m\'aquina; Previs\~ao de gera\c{c}\~ao}
+\FRDitapalavrasresult{Energia fotovoltaica; Aprendizado de m\'aquina; S\'eries temporais; Usinas solares}
+\FRDitapalavraapresentacao{Trabalho de Gradua\c{c}\~ao, ITA, S\~ao Jos\'e dos Campos, 2026. \NumPenultimaPagina\ p\'aginas.}
+\FRDitaresumo{\input{PreTextuais/resumo}}
+\FRDitaOpcoes{N}{O}
+\itaFRD
+
+\end{document}

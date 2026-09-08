@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: chapters/01_introducao.aux
+Case mismatch error between cite keys bmwk2025 and BMWK2025
+---line 76 of file chapters/01_introducao.aux
+ : \citation{bmwk2025
+ :                   }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys bmwk2025 and BMWK2025
+---line 82 of file chapters/01_introducao.aux
+ : \citation{bmwk2025
+ :                   }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: chapters/02_referencial_teorico.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: chapters/03_materiais_metodos.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+Warning--I didn't find a database entry for "pereira2017atlas"
+Warning--I didn't find a database entry for "hastie2009"
+Warning--I didn't find a database entry for "bishop2006"
+Warning--I didn't find a database entry for "vapnik1999"
+Warning--I didn't find a database entry for "hyndman2021"
+Warning--I didn't find a database entry for "geman1992"
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 21 entries,
+            6714 wiz_defined-function locations,
+            1342 strings with 14701 characters,
+and the built_in function-call counts, 21001 in all, are:
+= -- 1993
+> -- 643
+< -- 253
++ -- 505
+- -- 190
+* -- 1442
+:= -- 2739
+add.period$ -- 71
+call.type$ -- 21
+change.case$ -- 230
+chr.to.int$ -- 53
+cite$ -- 19
+duplicate$ -- 1422
+empty$ -- 1180
+format.name$ -- 936
+if$ -- 4685
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 358
+newline$ -- 101
+num.names$ -- 95
+pop$ -- 466
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 1619
+stack$ -- 1
+substring$ -- 803
+swap$ -- 610
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1
+warning$ -- 0
+while$ -- 136
+width$ -- 0
+write$ -- 311
+(There were 2 error messages)

@@ -1,0 +1,91 @@
+%==================== 3 METODOLOGIA ====================
+\section{Metodologia}
+
+\subsection{Conjunto de dados}
+
+Os dados provêm do sistema SCADA de uma usina solar fotovoltaica centralizada real, em operação, localizada no Nordeste do Brasil. A usina é composta por dez inversores de potência nominal da ordem de 275\,kW cada, totalizando aproximadamente 2.5\,MW em corrente alternada. O período de cobertura estende-se por cerca de 182 dias (dezembro de 2025 a junho de 2026), com aproximadamente 2.6e5 registros por variável na grade de um minuto. Registra-se, como limitação assumida explicitamente, que a janela não cobre um ciclo sazonal anual completo, o que pode restringir a representatividade do modelo treinado.
+
+A grandeza-alvo é a potência ativa total $P_{ac}$, obtida pela soma das potências individuais dos dez inversores. As demais grandezas registradas são organizadas na Tabela~\ref{tab:variaveis}.
+
+\begin{table}[htbp]
+\centering
+\caption{Variáveis registradas pelo sistema SCADA da usina.}
+\label{tab:variaveis}
+\footnotesize
+\singlespacing
+\renewcommand{\arraystretch}{0.9}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{3cm} p{6cm} c}
+\toprule
+\textbf{Grupo} & \textbf{Variável (símbolo)} & \textbf{Resolução} \\
+\midrule
+Elétrica & Potência ativa por inversor ($P_{ac,i}$, $\times 10$) & 1\,min \\
+\midrule
+\multirow{3}{*}{Irradiância} & Plano inclinado --- POA ($G_t$) & 1\,min \\
+ & Global horizontal --- GHI ($G_h$) & 1\,min \\
+ & Refletida ($G_r$) & 1\,min \\
+\midrule
+\multirow{3}{*}{Temperatura} & Ambiente ($T_{amb}$) & 1\,min \\
+ & Do módulo ($T_{mod}$) & 1\,min \\
+ & Interna por inversor ($T_{inv,i}$, $\times 10$) & 5\,min \\
+\midrule
+\multirow{3}{*}{Outras meteo.} & Umidade relativa ($UR$) & 1\,min \\
+ & Velocidade do vento ($v_w$) & 5\,min \\
+ & Direção do vento ($d_w$) & 5\,min \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A disponibilidade simultânea de $G_t$ e $G_h$ dispensa modelos de transposição, cujas incertezas se propagariam pela cadeia de conversão; analogamente, a medição direta de $T_{mod}$ elimina a necessidade de estimá-la por correlações empíricas.
+
+\subsection{Delimitação do problema}
+
+Fixam-se três elementos. A \textbf{grandeza-alvo} é $P_{ac}$, na resolução horária. O \textbf{horizonte} é \textit{day-ahead}: fixado o instante de emissão $t$, busca-se prever o conjunto $\{\hat{P}_{ac}(t+h)\}_{h\in\mathcal{H}}$, com $\mathcal{H}$ compreendendo os passos horários diurnos do dia seguinte (24\,--\,48\,h à frente). A \textbf{classe de informação} é endógena: o vetor de preditores admite apenas informação disponível até $t$, sem previsões NWP futuras. O vetor combina, assim, variáveis defasadas das grandezas observadas (que reintroduzem a memória temporal) e variáveis determinísticas conhecíveis \textit{a priori} (ângulos solares e calendário), estas últimas constituindo a âncora física da abordagem.
+
+\subsection{Pré-processamento e variáveis calculadas}
+
+A potência total é obtida por $P_{ac}(t) = \sum_{i=1}^{10} P_{inv,i}(t)$, exigindo-se a presença simultânea das dez leituras para validar o instante, o que evita viés sistemático de subestimação (apenas 0.006\,\% dos registros resultaram faltantes). A posição solar é calculada pelo algoritmo SPA de \citet{reda2004}, implementado na biblioteca \texttt{pvlib} \citep{holmgren2018}, da qual se derivam a elevação $\gamma_s$, o ângulo zenital $\theta_z$ e o azimute $\psi_s$.
+
+A cadeia de pré-processamento (Tabela~\ref{tab:preproc}) foi ordenada de modo que o tratamento de \textit{outliers} preceda a reamostragem, impedindo que picos espúrios contaminem as médias horárias. A detecção de anomalias baseou-se em critérios físicos e geométricos — não estatísticos —, conferindo maior defensabilidade ao procedimento. Identificou-se, por exemplo, $G_r = 6553.5\,\mathrm{W\,m}^{-2}$, valor correspondente exatamente a $65535/10$, isto é, ao estouro de um registrador de 16 bits; e valores nulos espúrios de $T_{inv}$ no período noturno, associados a inversores inativos. Adotou-se a elevação solar $\gamma_s$ como critério-mestre para anulação das irradiâncias noturnas e para o recorte diurno final, por ser função determinística e imune a ruído de sensor. Após o recorte ($\gamma_s > 0$), restaram 2207 horas diurnas.
+
+\begin{table}[htbp]
+\centering
+\caption{Etapas do pré-processamento, na ordem de aplicação.}
+\label{tab:preproc}
+\footnotesize
+\singlespacing
+\renewcommand{\arraystretch}{0.9}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{c p{4cm} p{6cm}}
+\toprule
+\textbf{\#} & \textbf{Operação} & \textbf{Critério adotado} \\
+\midrule
+1 & Alinhamento temporal & Indexação cronológica; verificação da grade de 1\,min \\
+2 & Tratamento de \textit{outliers} & Invalidação pontual por limites físicos e geometria solar \\
+3 & Reamostragem horária & Média condicionada a piso mínimo de leituras válidas \\
+4 & Tratamento de faltantes & Interpolação temporal curta; preenchimento limitado \\
+5 & Recorte diurno & Seleção de registros com $\gamma_s > 0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Engenharia de \textit{features}}
+
+Adota-se o \textbf{esquema de previsão direto}, em que se ajusta um modelo independente $f_h$ para cada horizonte: $\hat{P}_{ac}(t+h) = f_h(x_t)$. A escolha justifica-se por não acumular erro ao longo do horizonte (ao contrário da estratégia recursiva), por acomodar naturalmente a descontinuidade noturna e por tornar explícita a restrição de não vazamento, já que a defasagem endógena mais recente admissível para prever $t+h$ é exatamente de $h$ horas \citep{taieb2012}.
+
+A seleção das defasagens apoiou-se na análise das funções de autocorrelação parcial (FACP) computadas entre dias homólogos na mesma hora, removendo por construção o efeito do ciclo diurno determinístico (já capturado pelas variáveis solares) e evitando dupla contagem. A FACP indicou concentração da informação preditiva nas defasagens de um a três dias. Variáveis circulares (hora do dia, dia do ano, azimute e direção do vento) foram codificadas por pares seno--cosseno, preservando a continuidade do domínio. As \textit{features} numéricas foram padronizadas por \textit{z-score} para os modelos sensíveis à escala (SVM, MLP, LSTM), com parâmetros estimados exclusivamente sobre o conjunto de treino, em consonância com o protocolo de validação temporal.
+
+\subsection{Modelos adotados}
+
+Selecionaram-se quatro famílias com vieses indutivos contrastantes, representativas da literatura recente \citep{tian2023}:
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+\item \textbf{XGBoost} --- \textit{ensemble} aditivo de árvores ajustadas sequencialmente \citep{chen2016}; invariante a transformações monotônicas, robusto à multicolinearidade e competitivo no volume de dados disponível.
+\item \textbf{SVM} --- regressão por vetores de suporte com \textit{kernel} RBF; paradigma de margem e otimização convexa, com solução global garantida.
+\item \textbf{MLP} --- rede \textit{feedforward}; aproximador universal e referência arquitetural mínima frente à rede recorrente.
+\item \textbf{LSTM} --- rede recorrente para dependências temporais de longo alcance; referência obrigatória de comparação, embora sua elevada capacidade tenda a ser limitada pelo regime de poucos dados \citep{tian2023}.
+\end{itemize}
+
+\subsection{Métricas e protocolo de validação}
+
+As métricas primárias são a raiz do erro quadrático médio (RMSE) e o erro absoluto médio (MAE), reportadas conjuntamente por capturarem aspectos distintos do erro; o RMSE, mais sensível a desvios grosseiros, é o critério principal, e o MAE caracteriza a forma da distribuição. Acrescenta-se o \textit{forecast skill score} relativo à persistência inteligente, cujo modelo de céu claro é estimado pela \texttt{pvlib}. Como segundo \textit{baseline}, emprega-se a regressão linear sobre o mesmo vetor de preditores. O protocolo de validação é o \textit{walk-forward}, que preserva a ordem cronológica e previne tanto o vazamento temporal quanto, pela abordagem endógena, o vazamento de fonte.

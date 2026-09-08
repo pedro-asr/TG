@@ -1,0 +1,10 @@
+# config.yaml
+delfos_api:
+  api_key: 'UfKVCjs9h9QvsMhsSTNg2kmPDc5qycmP'
+
+db_config:
+  host: '24.199.119.9'
+  port: 5432
+  dbname: 'variaveis_delfos'
+  user: 'pedro_arthur'
+  password: 'goener'

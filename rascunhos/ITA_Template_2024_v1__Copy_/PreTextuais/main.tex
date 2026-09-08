@@ -1,0 +1,51 @@
+% Folha de Rosto e Capa para o caso do TG
+\maketitle
+
+% Dedicatoria: Nao esqueca essa secao  ... :-)
+\begin{itadedication}
+Insira aqui sua dedicatória. Exemplo: \textit{Ao meu avô, por ter me apresentado ao telescópio nas férias de 1990}.
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{PreTextuais/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+\input{PreTextuais/epigrafe}
+\end{spacing}
+\end{flushright}
+
+% Resumo
+\begin{abstract}
+\noindent
+\input{PreTextuais/resumo}
+\end{abstract}
+
+% Abstract
+\begin{englishabstract}
+\noindent
+\input{PreTextuais/abstract}
+\end{englishabstract}
+
+% Lista de figuras
+\listoffigures %opcional
+
+% Lista de tabelas
+\listoftables %opcional
+
+% % Lista de abreviaturas
+% \listofabbreviations
+% \input{PreTextuais/listaabreviaturas} %opcional
+
+% % Lista de simbolos
+% \listofsymbols
+% \input{PreTextuais/listasimbolos} %opcional
+
+% Summmary
+\tableofcontents

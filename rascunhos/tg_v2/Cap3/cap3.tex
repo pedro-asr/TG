@@ -1,0 +1,104 @@
+%  Capítulo 3 – Materiais e Métodos
+% ============================================================
+
+% TODO: Descrever a metodologia completa: dados, modelos, avaliação.
+%       Deve ser suficientemente detalhado para permitir reprodutibilidade.
+
+% ============================================================
+\section{Dados Meteorológicos e Variáveis de Entrada}
+\label{sec:dados}
+
+% ------------------------------------------------------------
+\subsection{O conjunto de dados das usinas}
+\label{subsec:dataset_usinas}
+
+% TODO: Descrever as usinas fotovoltaicas utilizadas: localização, capacidade
+%       instalada, período de dados, resolução temporal.
+%       Indicar a fonte (operador, SCADA, ONS, etc.) e eventuais acordos de
+%       confidencialidade.
+
+% ------------------------------------------------------------
+\subsection{Variáveis calculadas}
+\label{subsec:variaveis_calculadas}
+
+% TODO: Detalhar variáveis derivadas: ângulo solar (elevação, azimute),
+%       índice clear-sky (GHI medido / GHI clear-sky), temperatura de célula
+%       estimada etc. Citar as equações utilizadas.
+
+% ------------------------------------------------------------
+\subsection{Pré-processamento dos dados}
+\label{subsec:preprocessamento}
+
+% TODO: Descrever tratamento de outliers, dados faltantes (interpolação,
+%       exclusão), remoção de dados noturnos e filtros de qualidade.
+%       Quantificar a taxa de dados ausentes ou descartados.
+
+% ------------------------------------------------------------
+\subsection{Engenharia de \textit{features}}
+\label{subsec:feature_engineering}
+
+% TODO: Explicar a criação de lags temporais, médias móveis, codificação
+%       cíclica de variáveis de tempo (hora, dia do ano), interações entre
+%       variáveis. Justificar cada decisão com base na física do problema.
+
+% ------------------------------------------------------------
+\subsection{Conjunto final de variáveis}
+\label{subsec:conjunto_variaveis}
+
+% TODO: Apresentar tabela-resumo com todas as variáveis de entrada finais:
+%       nome, unidade, descrição, origem (medida / calculada / NWP).
+
+% Exemplo de tabela:
+% \begin{table}[htb]
+%   \centering
+%   \caption{Variáveis de entrada utilizadas nos modelos.}
+%   \label{tab:variaveis_entrada}
+%   \begin{tabularx}{\textwidth}{llXl}
+%     \toprule
+%     \textbf{Variável} & \textbf{Unidade} & \textbf{Descrição} & \textbf{Origem} \\
+%     \midrule
+%     GHI               & \si{\watt\per\square\meter} & Irradiância horizontal global & Medida \\
+%     $T_{amb}$         & \si{\celsius} & Temperatura do ar & Medida \\
+%     ...               & ...           & ...               & ...    \\
+%     \bottomrule
+%   \end{tabularx}
+%   \fonte{Elaborado pelo autor.}
+% \end{table}
+
+% ============================================================
+\section{Modelos Adotados}
+\label{sec:modelos_adotados}
+
+% TODO: Descrever cada modelo selecionado, p.ex.:
+%   \subsection{Gradient Boosting (XGBoost / LightGBM)}
+%   \subsection{Random Forest}
+%   \subsection{Redes Neurais LSTM}
+%   Para cada um: princípio de funcionamento, hiperparâmetros principais,
+%   implementação utilizada (biblioteca Python/scikit-learn/etc.).
+
+% ============================================================
+\section{Métricas de Avaliação e \textit{Benchmarks}}
+\label{sec:metricas}
+
+% TODO: Definir e justificar as métricas escolhidas. Exemplos:
+%
+% \textbf{RMSE} (Root Mean Square Error):
+% \begin{equation}
+%   \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\hat{y}_i - y_i)^2}
+%   \label{eq:rmse}
+% \end{equation}
+%
+% \textbf{MAE} (Mean Absolute Error):
+% \begin{equation}
+%   \text{MAE} = \frac{1}{n}\sum_{i=1}^{n}|\hat{y}_i - y_i|
+%   \label{eq:mae}
+% \end{equation}
+%
+% \textbf{MAPE} (Mean Absolute Percentage Error):
+% \begin{equation}
+%   \text{MAPE} = \frac{100\%}{n}\sum_{i=1}^{n}\left|\frac{\hat{y}_i - y_i}{y_i}\right|
+%   \label{eq:mape}
+% \end{equation}
+%
+% Discutir limitações de cada métrica (e.g., sensibilidade do MAPE a y ≈ 0).
+% Descrever como os benchmarks (baselines) serão comparados aos modelos propostos.

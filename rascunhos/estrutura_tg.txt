@@ -1,0 +1,78 @@
+TG
+
+# Introdução
+
+	## Cenário brasileiro de geração fotovoltaica
+
+		### Dados atuais de geração
+			Capacidade instalada de 48,5GW em 2024, expansão de 28,1% em relação ao ano anterior.
+			Participação de micro e mini geração já representam 5,6% da geração total no Brasil, sendo grande parte disso energia solar.
+			Geração solar fotovoltaica atingiu 70,7TWh crescendo 39,6%.
+			Atualmente representa 2,2% da matriz energética.
+			Oferta interna cresceu 33,2%.
+'			Participação na OIE(Oferta Interna de Energia) saiu de 0,2% em 2015 para 2,2% em 2024.
+			Em relação a participação na matriz elétrica, representa 9,3% em 2024.
+		### Comparação com outros países
+			Brasil vs Alemanha
+			Brasil vs China
+			Alemanha tem uma capacidade total de 117GW, com um crescimento anual médio de 19,6GW (Fonte: Ministério da Energia Alemão).
+			China tem uma capacidade instalada de 1,23TW, com um crescimento de 33,2% ao ano e previsão de mais 180 a 240GW ao longo de 2026.(Fonte:China’s National Energy Administration) 
+			Brasil é um dos países com maior potencial, o local menos ensolarado no Brasil tem mais irradiação que toda a Alemanha.
+		### Grande potencial ainda não aproveitado no Nordeste brasileiro
+		### Empecilhos para aproveitar nosso potencial
+			Transmissão ineficiente
+			Falta de técnicos competentes
+			Tributação e regulamentação
+		### Conexão com o trabalho apresentado e sua relevância
+	
+	## Objetivo do trabalho
+
+	## Estrutura do texto 
+
+# Referencial teórico
+	
+	## Previsão de geração de energia fotovoltaica
+		
+		### Diferentes métodos de previsão
+			Métodos Físicos -> baseiam-se em cadeias de modelos que descrevem analiticamente os processos físicos envolvidos na conversão solar-elétrica.
+			Métodos Estatísiticos -> abrangem toda a gama de abordagens orientadas por dados (ARIMA e ML)
+			Métodos Híbridos -> combinam elementos físicos e estatísticos em diferentes configurações. Um exemplo comum é o pré-processamento físico d irradiância NWP como entrada para modelos de ML
+		### Horizontes temporais de eventos
+			Ultrarrápida
+			Curto Prazo
+			Day-ahead
+			Médio e longo prazo
+		### Abordagem utilizada
+			Abordagem irradiância-para-potência (irradiance-to-power) versus previsão direta de potência
+		### Modelos de referência
+			A avaliação do desempenho de modelos preditivos em forecasting solar exige a comparação com modelos de referência ingênuos (naïve baselines), que representam a hipótese nula de que o modelo proposto agrega valor informacional significativo.
+			modelo de persistência simples (naïve persistence)
+			modelo de persistência inteligente (smart persistence)
+		### Especificidades para FV
+			Autocorrelação temporal.
+			Sazonalidade múltipla.
+			Não-negatividade e truncamento diurno.
+			Não-estacionariedade induzida por fatores externos.			
+
+	## Aprendizado de Máquina para Séries Temporais
+		
+		### Fundamentos do ML
+		### Cross-validation
+
+# Materiais e métodos
+	
+	## Dados Meteorológicos e Variáveis de Entrada
+	
+		### O conjunto de dados das usinas
+		### Variáveis calculadas
+		### Pré-processamento dos dados
+		### Engenharia de features
+	 	### Conjunto final de variáveis
+	
+	## Modelos adotados
+	
+	##  Métricas de Avaliação e Benchmarks
+		
+		
+
+	 

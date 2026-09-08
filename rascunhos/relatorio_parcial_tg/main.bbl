@@ -1,0 +1,102 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andrade et~al.(2023)]{andrade2023}
+C.~H.~T. Andrade et~al.
+\newblock How does neural network model capacity affect photovoltaic power
+  prediction? a study case.
+\newblock \emph{Sensors}, 23\penalty0 (3):\penalty0 1357, 2023.
+
+\bibitem[{Associa\c{c}\~ao Brasileira de Energia Solar
+  Fotovoltaica}(2026)]{absolar2026}
+{Associa\c{c}\~ao Brasileira de Energia Solar Fotovoltaica}.
+\newblock Infogr\'afico absolar n\textsuperscript{o} 91: energia solar
+  fotovoltaica no brasil.
+\newblock Technical report, ABSOLAR, S\~ao Paulo, 2026.
+
+\bibitem[Chen and Guestrin(2016)]{chen2016}
+T.~Chen and C.~Guestrin.
+\newblock Xgboost: A scalable tree boosting system.
+\newblock \emph{Proceedings of the 22nd ACM SIGKDD}, pages 785--794, 2016.
+
+\bibitem[{Empresa de Pesquisa Energ\'etica}(2025)]{epe2025}
+{Empresa de Pesquisa Energ\'etica}.
+\newblock Balan\c{c}o energ\'etico nacional 2025: Relat\'orio s\'intese -- ano
+  base 2024.
+\newblock Technical report, EPE, Rio de Janeiro, 2025.
+
+\bibitem[Fratea and Brannstrom(2017)]{fratea2017}
+C.~A. Fratea and C.~Brannstrom.
+\newblock Stakeholder subjectivities regarding barriers and drivers to the
+  introduction of utility-scale solar photovoltaic power in brazil.
+\newblock \emph{Energy Policy}, 111:\penalty0 346--352, 2017.
+
+\bibitem[Holmgren et~al.(2018)Holmgren, Hansen, and Mikofski]{holmgren2018}
+W.~F. Holmgren, C.~W. Hansen, and M.~A. Mikofski.
+\newblock pvlib python: a python package for modeling solar energy systems.
+\newblock \emph{Journal of Open Source Software}, 3\penalty0 (29):\penalty0
+  884, 2018.
+
+\bibitem[Kappler et~al.(2024)]{kappler2024}
+T.~Kappler et~al.
+\newblock Detection of shading for short-term power forecasting of photovoltaic
+  systems using machine learning techniques.
+\newblock \emph{EPJ Photovoltaics}, 15:\penalty0 17, 2024.
+
+\bibitem[Markovics and Mayer(2022)]{markovics2022}
+D.~Markovics and M.~J. Mayer.
+\newblock Comparison of machine learning methods for photovoltaic power
+  forecasting based on numerical weather prediction.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 161:\penalty0
+  112364, 2022.
+
+\bibitem[{National Energy Administration of China}(2026)]{nea2026}
+{National Energy Administration of China}.
+\newblock Statistics on national photovoltaic power generation capacity and
+  annual additions.
+\newblock Technical report, NEA, Beijing, 2026.
+
+\bibitem[Pereira et~al.(2017)]{pereira2017}
+E.~B. Pereira et~al.
+\newblock Atlas brasileiro de energia solar.
+\newblock Technical report, INPE, S\~ao Jos\'e dos Campos, 2017.
+
+\bibitem[Queiroz et~al.(2020)]{queiroz2020}
+J.~V. Queiroz et~al.
+\newblock Barriers to expand solar photovoltaic energy in brazil.
+\newblock \emph{Independent Journal of Management \& Production}, 11\penalty0
+  (7):\penalty0 2733--2756, 2020.
+
+\bibitem[Reda and Andreas(2004)]{reda2004}
+I.~Reda and A.~Andreas.
+\newblock Solar position algorithm for solar radiation applications.
+\newblock \emph{Solar Energy}, 76\penalty0 (5):\penalty0 577--589, 2004.
+
+\bibitem[Sarmas et~al.(2022)]{sarmas2022}
+E.~Sarmas et~al.
+\newblock Transfer learning strategies for solar power forecasting under data
+  scarcity.
+\newblock \emph{Scientific Reports}, 12:\penalty0 14643, 2022.
+
+\bibitem[Suri et~al.(2020)]{suri2020}
+M.~Suri et~al.
+\newblock Global photovoltaic power potential by country.
+\newblock Technical report, World Bank, Washington, DC, 2020.
+
+\bibitem[Taieb et~al.(2012)]{taieb2012}
+S.~B. Taieb et~al.
+\newblock A review and comparison of strategies for multi-step ahead time
+  series forecasting based on the nn5 forecasting competition.
+\newblock \emph{Expert Systems with Applications}, 39\penalty0 (8), 2012.
+
+\bibitem[Tian et~al.(2023)Tian, Ooka, and Lee]{tian2023}
+J.~Tian, R.~Ooka, and D.~Lee.
+\newblock Multi-scale solar radiation and photovoltaic power forecasting with
+  machine learning algorithms in urban environment: A state-of-the-art review.
+\newblock \emph{Journal of Cleaner Production}, 426:\penalty0 139040, 2023.
+
+\end{thebibliography}

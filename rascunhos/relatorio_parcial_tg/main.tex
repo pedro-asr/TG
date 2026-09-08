@@ -1,0 +1,120 @@
+\documentclass[12pt, a4paper, oneside]{article}
+
+% Encoding & language
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% babel not installed for Portuguese; omit language-specific hyphenation
+%\usepackage[portuges]{babel}
+
+% Page layout
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\linespread{1.15}
+
+% Math
+\usepackage{amsmath, amssymb, amsfonts, amsthm, latexsym}
+
+% Graphics & figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{tabulary}
+
+% Layout helpers
+\usepackage{indentfirst}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{cancel}
+
+% Headers/footers
+\usepackage{fancyhdr}
+
+% TOC bibliography entry
+\usepackage[nottoc]{tocbibind}
+
+% Bibliography — natbib author-year
+\usepackage[round,authoryear,sort]{natbib}
+
+% Quotes
+\usepackage[autostyle, english=american]{csquotes}
+\MakeOuterQuote{"}
+
+% TikZ / PGF
+\usepackage{pgfplots}
+\usepackage{pgffor}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usetikzlibrary{angles, quotes}
+
+% PDF & hyperlinks (load last)
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{url}
+\usepackage[colorlinks=true,urlcolor=magenta,citecolor=red,linkcolor=blue,bookmarks=true,hidelinks=false]{hyperref}
+\pdfstringdefDisableCommands{%
+  \renewcommand{\'}[1]{#1}%
+  \renewcommand{\`}[1]{#1}%
+  \renewcommand{\^}[1]{#1}%
+  \renewcommand{\~}[1]{#1}%
+  \renewcommand{\c}[1]{#1}%
+}
+\renewcommand{\refname}{Referências}
+
+% Misc
+\usepackage{appendix}
+
+\newtheorem{theorem}{Teorema}
+
+\newcommand\answerbox{%
+    \fbox{\rule{2in}{0pt}\rule[-0.1ex]{0pt}{4ex}}}
+
+\newcommand{\image}[3]{%
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=#2]{#1}
+        \caption{#3}
+    \end{figure}
+}
+
+%***********************************************************************%
+
+\begin{document}
+
+    \input{Sections/front}
+
+\newpage
+    \tableofcontents
+    \newpage
+
+    \pagestyle{fancy}
+    \fancyhf{}
+    \renewcommand{\footrulewidth}{0.6pt}
+    \fancyhead[R]{Processos de Fabricação II}
+    \fancyhead[L]{MTP-45}
+    \fancyfoot[R]{\thepage}
+    \fancyfoot[L]{Instituto Tecnológico de Aeronáutica}
+
+    \input{Sections/abstract}
+    \input{Sections/introducao}
+    \input{Sections/revisao_literatura}
+    \input{Sections/metodologia}
+    \input{Sections/planejamento}
+    \bibliographystyle{plainnat}
+    {\small\singlespacing
+    \begin{multicols}{2}
+    \bibliography{referencias}
+    \end{multicols}}
+\end{document}

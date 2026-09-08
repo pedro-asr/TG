@@ -1,0 +1,8 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces De cima para abaixo: composição percentual da OIE para cada fonte de energia e composição percentual da matriz elétrica para cada fonte ambas para 2024.}}{26}{figure.1.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Evolução temporal da participação de cada fonte de energia na OIE(\%) entre 2015 e 2024.}}{27}{figure.1.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Evolução da geração de energia elétrica por cada fonte.}}{27}{figure.1.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Mapas de produtividade fotovoltaica (PVOUT) do Brasil, Alemanha e China.}}{29}{figure.1.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Validação cruzada \textit {$K$-fold} convencional, com particionamento aleatório que desconsidera a ordem cronológica.}}{51}{figure.2.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Validação cruzada em janela progressiva expansiva (\textit {walk-forward}), em que o horizonte de treinamento cresce e o teste é sempre o bloco posterior.}}{53}{figure.2.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Validação cruzada em janela deslizante (\textit {sliding window}), em que o conjunto de treinamento tem largura fixa e avança no tempo, descartando as observações mais antigas.}}{54}{figure.2.7}%

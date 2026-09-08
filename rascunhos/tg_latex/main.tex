@@ -1,0 +1,261 @@
+% ============================================================
+%  TG – Instituto Tecnológico de Aeronáutica
+%  Engenharia Mecânica
+%  Previsão de Geração Fotovoltaica com Aprendizado de Máquina
+% ============================================================
+\documentclass[
+  12pt,
+  openright,
+  twoside,
+  a4paper,
+  brazil,
+  % english,   % descomente se redigir em inglês
+]{abntex2}
+
+% ------------------------------------------------------------
+% Pacotes essenciais
+% ------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}          % Times New Roman (texto + math)
+\usepackage{microtype}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}           % unidades SI: \SI{100}{\watt}
+\usepackage{eurosym}           % símbolo \euro
+\DeclareSIUnit\kWh{kWh}
+\DeclareSIUnit\kWp{kWp}
+\DeclareSIUnit\peak{p}         % watt-pico: \watt\peak = Wp
+\sisetup{per-mode=repeated-symbol} % permite \per múltiplo: kWh/kWp/dia
+\usepackage{hyperref}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[alf,abnt-emphasize=bf]{abntex2cite}  % citações ABNT autor-data
+
+% ------------------------------------------------------------
+% Configuração de margens (ABNT: sup 3cm, inf 2cm, esq 3cm, dir 2cm)
+% ------------------------------------------------------------
+\usepackage[
+  top=3cm,
+  bottom=2cm,
+  left=3cm,
+  right=2cm
+]{geometry}
+
+% ------------------------------------------------------------
+% Espaçamento entre linhas (1,5 – padrão ABNT)
+% ------------------------------------------------------------
+\OnehalfSpacing
+
+% ------------------------------------------------------------
+% Configuração do hyperref
+% ------------------------------------------------------------
+\hypersetup{
+  pdftitle={Previsão de Geração de Energia Elétrica de Usinas
+            Fotovoltaicas Utilizando Aprendizado de Máquina},
+  pdfauthor={REBOUÇAS, Pedro},
+  pdfsubject={Trabalho de Graduação - ITA},
+  pdfkeywords={energia fotovoltaica, aprendizado de máquina,
+               previsão de geração, séries temporais},
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black
+}
+
+% ------------------------------------------------------------
+% Informações do trabalho
+% ------------------------------------------------------------
+\titulo{Desenvolvimento de um Modelo de Previsão de Geração de
+        Energia Elétrica de Usinas Fotovoltaicas Utilizando
+        Aprendizado de Máquina}
+\autor{Pedro Arthur Sales Rebouças}
+\local{São José dos Campos}
+\data{2026}
+\instituicao{Instituto Tecnológico de Aeronáutica}
+\tipotrabalho{Trabalho de Graduação}
+\orientador{Prof.\ Dr.\ Rodrigo Arnaldo Scarpel (ITA)}
+% \coorientador{Prof.\ Dr.\ Nome do Coorientador (INSTITUIÇÃO)}
+\curso{Engenharia Mecânica}
+
+\preambulo{Trabalho de Graduação apresentado ao Curso de
+           Engenharia Mecânica do Instituto Tecnológico de
+           Aeronáutica, como requisito parcial para obtenção do
+           título de Engenheiro Mecânico.}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% ------------------------------------------------------------
+% Elementos pré-textuais
+% ------------------------------------------------------------
+\pretextual
+
+\imprimircapa
+
+\imprimirfolhaderosto*   % * = gera espaço para ficha catalográfica
+
+% -- Ficha catalográfica (verso da folha de rosto) -----------
+\begin{fichacatalografica}
+  \vspace*{\fill}
+  \begin{center}
+    \fbox{
+      \begin{minipage}[c][8cm]{13cm}
+        \small
+        \textbf{Dados Internacionais de Catalogação-na-Publicação (CIP)} \\
+        \textbf{Divisão de Informação e Documentação} \\[6pt]
+        REBOUÇAS, Pedro \\
+        \hspace{0.5cm} \imprimirtitulo{} / \imprimirautor. \\
+        \hspace{0.5cm} \imprimirlocal, \imprimirdata. \\
+        \hspace{0.5cm} XX f. \\[6pt]
+        \hspace{0.5cm} Trabalho de Graduação -- Curso de \imprimircurso{}
+        -- \imprimirinstituicao, \imprimirdata. \\
+        \hspace{0.5cm} Orientador: \imprimirorientador. \\[6pt]
+        \hspace{0.5cm} 1. Energia fotovoltaica. 2. Aprendizado de máquina.
+        3. Previsão de geração. \\
+        \hspace{0.5cm} I. \imprimirinstituicao. II. Título.
+      \end{minipage}
+    }
+  \end{center}
+\end{fichacatalografica}
+
+% -- Folha de aprovação --------------------------------------
+\begin{folhadeaprovacao}
+  \begin{center}
+    {\large\bfseries\imprimirtitulo}\\[2cm]
+    Esta publicação foi aceita como Relatório Final de Trabalho de Graduação\\[2cm]
+    \makebox[10cm]{\hrulefill}\\
+    \imprimirautor\\
+    Autor\\[1.5cm]
+    \makebox[10cm]{\hrulefill}\\
+    \imprimirorientador\\
+    Orientador\\[1.5cm]
+    \imprimirlocal, \the\year
+  \end{center}
+\end{folhadeaprovacao}
+
+% -- Dedicatória ---------------------------------------------
+\begin{dedicatoria}
+  \vspace*{\fill}
+  \begin{flushright}
+    \textit{Dedique este trabalho a quem desejar.}
+  \end{flushright}
+\end{dedicatoria}
+
+% -- Agradecimentos ------------------------------------------
+\begin{agradecimentos}
+  Escreva aqui seus agradecimentos.
+\end{agradecimentos}
+
+% -- Epígrafe (opcional) -------------------------------------
+\begin{epigrafe}
+  \vspace*{\fill}
+  \begin{flushright}
+    \textit{``Frase inspiradora opcional.''}\\
+    (Autor da frase)
+  \end{flushright}
+\end{epigrafe}
+
+% -- Resumo --------------------------------------------------
+\setlength{\absparsep}{18pt}
+\begin{resumo}
+  Escreva aqui o resumo em português (máximo 500 palavras, conforme ABNT NBR 6028:2021).
+  O resumo deve apresentar de forma concisa os objetivos, metodologia, resultados e
+  conclusões do trabalho.
+
+  \noindent\textbf{Palavras-chave:} energia fotovoltaica; aprendizado de máquina;
+  previsão de geração; séries temporais; usinas solares.
+\end{resumo}
+
+% -- Abstract ------------------------------------------------
+\begin{resumo}[Abstract]
+  \begin{otherlanguage*}{english}
+    Write the abstract here (maximum 500 words).
+    The abstract should present concisely the objectives, methodology, results and
+    conclusions of the work.
+
+    \noindent\textbf{Keywords:} photovoltaic energy; machine learning;
+    generation forecasting; time series; solar power plants.
+  \end{otherlanguage*}
+\end{resumo}
+
+% -- Listas --------------------------------------------------
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+% -- Lista de abreviaturas e siglas --------------------------
+\begin{siglas}
+  \item[ABNT]  Associação Brasileira de Normas Técnicas
+  \item[ANN]   Artificial Neural Network (Rede Neural Artificial)
+  \item[EPE]   Empresa de Pesquisa Energética
+  \item[FV]    Fotovoltaico
+  \item[GHI]   Global Horizontal Irradiance (Irradiância Horizontal Global)
+  \item[ITA]   Instituto Tecnológico de Aeronáutica
+  \item[LSTM]  Long Short-Term Memory
+  \item[MAE]   Mean Absolute Error (Erro Absoluto Médio)
+  \item[ML]    Machine Learning (Aprendizado de Máquina)
+  \item[MAPE]  Mean Absolute Percentage Error
+  \item[NWP]   Numerical Weather Prediction (Previsão Numérica do Tempo)
+  \item[RMSE]  Root Mean Square Error (Raiz do Erro Quadrático Médio)
+  \item[SFV]   Sistema Fotovoltaico
+  \item[UFV]   Usina Fotovoltaica
+  \item[XGBoost] Extreme Gradient Boosting
+\end{siglas}
+
+% -- Lista de símbolos (opcional) ----------------------------
+\begin{simbolos}
+  \item[$G$]       Irradiância solar [\si{\watt\per\square\meter}]
+  \item[$P_{ac}$]  Potência CA gerada [\si{\watt}]
+  \item[$P_{dc}$]  Potência CC gerada [\si{\watt}]
+  \item[$T_{amb}$] Temperatura ambiente [\si{\celsius}]
+  \item[$T_{mod}$] Temperatura do módulo fotovoltaico [\si{\celsius}]
+  \item[$\eta$]    Eficiência do sistema fotovoltaico
+  \item[$\hat{y}$] Valor previsto pelo modelo
+  \item[$y$]       Valor real observado
+\end{simbolos}
+
+% -- Sumário -------------------------------------------------
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ============================================================
+% Elementos textuais
+% ============================================================
+\textual
+
+\include{chapters/01_introducao}
+\include{chapters/02_referencial_teorico}
+\include{chapters/03_materiais_metodos}
+
+% ============================================================
+% Elementos pós-textuais
+% ============================================================
+\postextual
+
+% -- Referências ---------------------------------------------
+\bibliography{referencias}
+
+% -- Apêndices (se houver) -----------------------------------
+% \begin{apendicesenv}
+%   \partapendices
+%   \include{chapters/apendice_a}
+% \end{apendicesenv}
+
+% -- Anexos (se houver) --------------------------------------
+% \begin{anexosenv}
+%   \partanexos
+%   \include{chapters/anexo_a}
+% \end{anexosenv}
+
+\end{document}

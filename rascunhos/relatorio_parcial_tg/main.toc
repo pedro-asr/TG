@@ -1,0 +1,19 @@
+\contentsline {section}{RESUMO}{2}{section*.3}%
+\contentsline {section}{\numberline {1}Introdução e Contextualização}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Justificativa e relevância}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivo do trabalho}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Revisão de Literatura}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Especificidades da previsão fotovoltaica}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Métodos e horizontes de previsão}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Modelos de referência e avaliação}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Aprendizado de máquina para séries temporais}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Metodologia}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Conjunto de dados}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Delimitação do problema}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Pré-processamento e variáveis calculadas}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Engenharia de \textit {features}}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Modelos adotados}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Métricas e protocolo de validação}{8}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Planejamento Detalhado e Próximos Passos}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Riscos e pontos de atenção}{8}{subsection.4.1}%
+\contentsline {section}{Referências}{8}{section*.7}%

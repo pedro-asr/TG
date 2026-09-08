@@ -1,0 +1,17 @@
+%==================== 1 INTRODUÇÃO ====================
+\newpage
+\section{Introdução e Contextualização}
+
+A energia solar fotovoltaica consolidou-se como a fonte de maior crescimento da matriz elétrica brasileira. Segundo o Balanço Energético Nacional, a capacidade instalada da fonte alcançou 48468\,MW ao final de 2024, expansão de 28.1\,\% sobre o ano anterior, ao passo que a geração atingiu 70.7\,TWh, crescimento de 39.6\,\% \citep{epe2025}. Dados mais recentes confirmam a trajetória: a capacidade operacional superou 70.3\,GW em abril de 2026, considerando geração centralizada e distribuída \citep{absolar2026}.
+
+Esse desempenho encontra respaldo nas condições físicas privilegiadas do território brasileiro. O Brasil registra potencial teórico médio de 5.276\,kWh\,m$^{-2}$\,d$^{-1}$ de irradiação horizontal global, superior ao da China (4.127) e ao da Alemanha (2.978), aliado a uma baixa sazonalidade (índice de 1.34 contra 4.37 alemão) que favorece a operação do sistema \citep{suri2020}. Apesar disso, o grau de aproveitamento ainda é incipiente em termos relativos quando contrastado com a liderança chinesa, da ordem de 1.23\,TW instalados \citep{nea2026}.
+
+Essa vantagem concentra-se no Nordeste, que reúne os maiores níveis de irradiação do país, em especial o semiárido \citep{pereira2017}, e a maior parcela da capacidade centralizada outorgada \citep{absolar2026}. O gargalo, contudo, não reside na disponibilidade do recurso, mas em barreiras operacionais, técnicas e institucionais — notadamente a capacidade limitada de transmissão, a escassez de mão de obra qualificada e o ambiente tributário-regulatório \citep{fratea2017,queiroz2020}. Um indício concreto desse limite é o aumento do \textit{curtailment}, que em 2025 atingiu cerca de 20.7\,\% da geração fotovoltaica \citep{absolar2026}.
+
+\subsection{Justificativa e relevância}
+
+A intermitência da geração fotovoltaica, frequentemente tratada como limitação física, é mais adequadamente compreendida como um problema de informação: a variabilidade só se converte em risco operacional na medida em que é desconhecida ou mal estimada. Melhorar a acurácia da previsão equivale a reduzir a incerteza com que o operador trabalha e, por conseguinte, a margem de reserva térmica que precisa manter. \citet{tian2023} quantificam esse efeito ao estimar que uma melhoria de 25\,\% na acurácia da previsão pode reduzir o custo líquido de geração do sistema em 1.56\,\%. A previsão acurada qualifica, ainda, o planejamento do despacho hidrotérmico — particularmente relevante no Nordeste, em complementaridade com o parque hidrelétrico — e a gestão dos ativos privados, reduzindo a exposição a penalidades de liquidação de diferenças.
+
+\subsection{Objetivo do trabalho}
+
+O objetivo geral é desenvolver e avaliar comparativamente modelos de aprendizado de máquina para a previsão \textit{day-ahead} da potência ativa gerada por uma usina fotovoltaica centralizada, sob abordagem endógena, a partir de dados operacionais reais. Como objetivos específicos, destacam-se: (i) caracterizar e pré-processar a base de dados SCADA da usina; (ii) construir o conjunto de \textit{features} respeitando a restrição de não vazamento temporal; (iii) implementar e ajustar os modelos XGBoost, SVM, MLP e LSTM; e (iv) avaliar seu desempenho frente a modelos de referência por meio de métricas padronizadas.

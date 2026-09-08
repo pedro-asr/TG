@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tese.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: abnt/abnt-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+<= is an unknown function---line 1091 of file abnt/abnt-alf.bst
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abnt/abnt-options.bib
+Database file #2: Referencias/referencias.bib
+Warning--I didn't find a database entry for "pereira2017atlas"
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 29 entries,
+            6670 wiz_defined-function locations,
+            1381 strings with 15510 characters,
+and the built_in function-call counts, 21392 in all, are:
+= -- 1582
+> -- 814
+< -- 45
++ -- 353
+- -- 243
+* -- 1533
+:= -- 2847
+add.period$ -- 66
+call.type$ -- 31
+change.case$ -- 293
+chr.to.int$ -- 82
+cite$ -- 24
+duplicate$ -- 992
+empty$ -- 1635
+format.name$ -- 1169
+if$ -- 5128
+int.to.chr$ -- 4
+int.to.str$ -- 3
+missing$ -- 484
+newline$ -- 130
+num.names$ -- 120
+pop$ -- 621
+preamble$ -- 1
+purify$ -- 117
+quote$ -- 0
+skip$ -- 1343
+stack$ -- 1
+substring$ -- 672
+swap$ -- 481
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1
+warning$ -- 0
+while$ -- 162
+width$ -- 0
+write$ -- 388
+(There was 1 error message)
