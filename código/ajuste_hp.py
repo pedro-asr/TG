@@ -5,6 +5,8 @@ Ajuste de hiperparâmetros compartilhado pelos 4 modelos (SVM, MLP, LSTM, XGBoos
 otimização bayesiana (Optuna/TPE) com validação cruzada em série temporal (walk-forward,
 `TimeSeriesSplit` — nunca k-fold aleatório, para não vazar futuro no treino de cada fold).
 """
+import time
+
 import numpy as np
 import optuna
 from sklearn.metrics import mean_squared_error
@@ -38,10 +40,19 @@ def otimizar(construir_modelo, espaco_busca, X, y, n_trials=40, n_splits=N_SPLIT
         params = espaco_busca(trial)
         return validar_cv(construir_modelo, params, X, y, n_splits=n_splits)
 
+    inicio = time.time()
+
+    def log_trial(estudo, trial):
+        decorrido = time.time() - inicio
+        print(f"   [{nome_estudo}] trial {trial.number + 1}/{n_trials}  "
+              f"RMSE={trial.value:.2f} kW  |  melhor={estudo.best_value:.2f} kW  |  "
+              f"{decorrido:.0f}s decorridos  |  params={trial.params}", flush=True)
+
     estudo = optuna.create_study(
         direction="minimize",
         study_name=nome_estudo,
         sampler=optuna.samplers.TPESampler(seed=SEED),
     )
-    estudo.optimize(objetivo, n_trials=n_trials, show_progress_bar=False)
+    estudo.optimize(objetivo, n_trials=n_trials, show_progress_bar=False,
+                     callbacks=[log_trial])
     return estudo

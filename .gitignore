@@ -1,0 +1,10 @@
+dataset/
+dados/planilhas/
+rascunhos/
+*.xlsx
+*.csv
+*.joblib
+.venv/
+__pycache__/
+*.pyc
+.claude/
